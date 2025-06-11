@@ -24,11 +24,11 @@ def transform_gnss_data(lidar_model: str, track_type: str) -> NDArray[np.float64
     try:
         gnss_data = np.loadtxt(f'../{lidar_model}/{track_type}/gnss_{track_type}.txt', skiprows=1, dtype=np.float64)
         
-        result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lan) ===> easting northing
+        result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lat) ===> easting northing
         result = np.array(result)
 
-        gnss_data[:, 1] = result[:, 1]  # Latitude -> Northing
-        gnss_data[:, 2] = result[:, 0]  # Longitude -> Easting
+        gnss_data[:, 1] = result[:, 0]  # Longitude -> Easting
+        gnss_data[:, 2] = result[:, 1]  # Latitude  -> Northing
 
         if not is_strictly_increasing(gnss_data[:, 0]):
             logger.warning('GNSS timestamps are not strictly increasing')
@@ -95,8 +95,8 @@ def transform_points(lidar_points: NDArray[np.float64], imu_data: NDArray[np.flo
 
     transformed_points = lidar_points.copy()
     
-    transformed_points[:, 1] = (x * cos_yaw * cos_pitch - y * sin_yaw + z * cos_yaw * sin_pitch) + gnss_x
-    transformed_points[:, 2] = (x * sin_yaw * cos_pitch + y * cos_yaw + z * sin_yaw * sin_pitch) + gnss_y
+    transformed_points[:, 1] = (x * cos_yaw * cos_pitch - y * sin_yaw + z * cos_yaw * sin_pitch) + gnss_y # Rotació transforma x_lidar en dir. Nord-Sur, es suma northing 
+    transformed_points[:, 2] = (x * sin_yaw * cos_pitch + y * cos_yaw + z * sin_yaw * sin_pitch) + gnss_x # Rotació transforma y_lidar en dir. Est-Oest, es suma easting
     transformed_points[:, 3] = (-x * sin_pitch + z * cos_pitch) + gnss_z
     
     return transformed_points
@@ -131,8 +131,8 @@ def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], im
         frame_data = np.column_stack((
             lidar_timestamps_seconds,
             np.full(len(lidar_timestamps_seconds), frame_idx), 
-            rotated_lidar_data[:, 2], # La Y del lidar està a l'esquerra per tant easting
-            rotated_lidar_data[:, 1], # La X del lidar va cap endavant per tant northing 
+            rotated_lidar_data[:, 2], # Easting
+            rotated_lidar_data[:, 1], # Northing
             rotated_lidar_data[:, 3],
             rotated_lidar_data[:, 4]
         ))

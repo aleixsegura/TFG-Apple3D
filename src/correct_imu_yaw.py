@@ -54,7 +54,6 @@ def calculate_bearing(lat1, lon1, lat2, lon2):
 
     delta_lon = lon2 - lon1
 
-
     x = sin(delta_lon) * cos(lat2)
     y = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(delta_lon)
 
