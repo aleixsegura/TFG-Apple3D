@@ -13,13 +13,6 @@ LIDAR_MODEL       = sys.argv[1].lower()
 TRACK_TYPE        = sys.argv[2].lower()
 FRAME_SIZE        = LIVOX_RAW_FRAME_SIZE if LIDAR_MODEL == 'livox' else OUSTER_RAW_FRAME_SIZE
 
-match (LIDAR_MODEL, TRACK_TYPE):
-    case ('ouster', 'loop'):
-        FRAMES_TO_TRIM = []
-    case ('livox', 'loop'):
-        FRAMES_TO_TRIM = []
-    case _:
-        FRAMES_TO_TRIM = []
 
 logging.basicConfig(level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -112,9 +105,6 @@ def transform_points(lidar_points: NDArray[np.float64], imu_data: NDArray[np.flo
 def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], imu_data: NDArray[np.float64], gnss_data: NDArray[np.float64]):
     start_time = time.time()
     try:
-        if frame_idx in FRAMES_TO_TRIM:
-            logger.warning(f'Frame {frame_idx} is a boundary frame and has to bee skipped.')
-            return
 
         valid_reads = np.linalg.norm(lidar_frame[:, 1:4], axis=1) < DIST_MAX
 

@@ -5,7 +5,7 @@ import numpy as np
 from numpy.typing import NDArray
 from dataclasses import dataclass
 from scipy.spatial.transform import Rotation
-from imu_yaw_vs_gnss import compute_offset
+from correct_imu_yaw import compute_offset
 import sensor_msgs.point_cloud2 as pc2
 
 
