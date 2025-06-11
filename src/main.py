@@ -24,7 +24,7 @@ def transform_gnss_data(lidar_model: str, track_type: str) -> NDArray[np.float64
     try:
         gnss_data = np.loadtxt(f'../{lidar_model}/{track_type}/gnss_{track_type}.txt', skiprows=1, dtype=np.float64)
         
-        result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lat, lon) ===> easting northing
+        result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lan) ===> easting northing
         result = np.array(result)
 
         gnss_data[:, 1] = result[:, 1]  # Latitude -> Northing

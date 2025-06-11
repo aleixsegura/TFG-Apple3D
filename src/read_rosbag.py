@@ -31,8 +31,8 @@ class IMURead:
 @dataclass
 class GNSSRead:
     timestamp: np.float32
-    latitude: np.float32
     longitude: np.float32
+    latitude: np.float32
     altitude: np.float32
 
 
@@ -130,14 +130,14 @@ def write_imu(imu_read: IMURead, move: str):
 
 def process_gnss(msg, t, move):
     seconds = t.secs + t.nsecs * 1e-9
-    gnss_read = GNSSRead(seconds, msg.latitude, msg.longitude, msg.altitude)
+    gnss_read = GNSSRead(seconds, msg.longitude, msg.latitude, msg.altitude)
     write_gnss(gnss_read, move)
 
 
 def write_gnss(gnss_read: GNSSRead, move: str):
     with open(f'./{move}/gnss_{move}.txt', 'a') as f:
         f.write(f'{gnss_read.timestamp:.10f}\t'
-                f'{gnss_read.latitude:.20f}\t{gnss_read.longitude:.20f}\t{gnss_read.altitude:.20f}\n')
+                f'{gnss_read.longitude:.20f}\t{gnss_read.latitude:.20f}\t{gnss_read.altitude:.20f}\n')
 
 
 def process_bag(lidar_type, track_type: str):
