@@ -1,0 +1,2012 @@
+2025-06-11 18:23:36,768 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 18:23:36,768 - INFO - Loading sensor data...
+2025-06-11 18:23:44,996 - INFO - Loaded 501 GNSS points
+2025-06-11 18:24:28,498 - INFO - Split LiDAR data into 105 frames
+2025-06-11 18:24:28,499 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 18:24:28,499 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 18:24:28,499 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 18:24:28,499 - INFO - Processing frame 1/105
+2025-06-11 18:24:28,527 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 18:25:03,801 - INFO - Processed frame 1 in 35.30 seconds
+2025-06-11 18:25:03,802 - INFO - Processing frame 2/105
+2025-06-11 18:25:03,828 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 18:24:31,243 - INFO - Processed frame 2 in -32.56 seconds
+2025-06-11 18:24:31,243 - INFO - Processing frame 3/105
+2025-06-11 18:24:31,273 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 18:24:32,851 - INFO - Processed frame 3 in 1.61 seconds
+2025-06-11 18:24:32,851 - INFO - Processing frame 4/105
+2025-06-11 18:24:32,881 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 18:24:34,338 - INFO - Processed frame 4 in 1.49 seconds
+2025-06-11 18:24:34,338 - INFO - Processing frame 5/105
+2025-06-11 18:24:34,365 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 18:24:35,756 - INFO - Processed frame 5 in 1.42 seconds
+2025-06-11 18:24:35,757 - INFO - Processing frame 6/105
+2025-06-11 18:24:35,785 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 18:24:37,249 - INFO - Processed frame 6 in 1.49 seconds
+2025-06-11 18:24:37,249 - INFO - Processing frame 7/105
+2025-06-11 18:24:37,275 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 18:24:38,733 - INFO - Processed frame 7 in 1.48 seconds
+2025-06-11 18:24:38,733 - INFO - Processing frame 8/105
+2025-06-11 18:24:38,770 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 18:24:40,097 - INFO - Processed frame 8 in 1.36 seconds
+2025-06-11 18:24:40,097 - INFO - Processing frame 9/105
+2025-06-11 18:24:40,123 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 18:24:41,631 - INFO - Processed frame 9 in 1.53 seconds
+2025-06-11 18:24:41,631 - INFO - Processing frame 10/105
+2025-06-11 18:24:41,659 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 18:24:43,395 - INFO - Processed frame 10 in 1.76 seconds
+2025-06-11 18:24:43,396 - INFO - Processing frame 11/105
+2025-06-11 18:24:43,425 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 18:24:45,294 - INFO - Processed frame 11 in 1.90 seconds
+2025-06-11 18:24:45,295 - INFO - Processing frame 12/105
+2025-06-11 18:24:45,328 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 18:24:47,685 - INFO - Processed frame 12 in 2.39 seconds
+2025-06-11 18:24:47,686 - INFO - Processing frame 13/105
+2025-06-11 18:24:47,722 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 18:24:49,926 - INFO - Processed frame 13 in 2.24 seconds
+2025-06-11 18:24:49,927 - INFO - Processing frame 14/105
+2025-06-11 18:24:49,960 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 18:24:52,650 - INFO - Processed frame 14 in 2.72 seconds
+2025-06-11 18:24:52,651 - INFO - Processing frame 15/105
+2025-06-11 18:24:52,687 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 18:24:55,308 - INFO - Processed frame 15 in 2.66 seconds
+2025-06-11 18:24:55,309 - INFO - Processing frame 16/105
+2025-06-11 18:25:28,850 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 18:24:57,445 - INFO - Processed frame 16 in 2.14 seconds
+2025-06-11 18:24:57,445 - INFO - Processing frame 17/105
+2025-06-11 18:24:57,478 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 18:25:00,042 - INFO - Processed frame 17 in 2.60 seconds
+2025-06-11 18:25:00,042 - INFO - Processing frame 18/105
+2025-06-11 18:25:00,078 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-11 18:25:02,230 - INFO - Processed frame 18 in 2.19 seconds
+2025-06-11 18:25:02,230 - INFO - Processing frame 19/105
+2025-06-11 18:25:02,270 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-11 18:25:04,647 - INFO - Processed frame 19 in 2.42 seconds
+2025-06-11 18:25:04,647 - INFO - Processing frame 20/105
+2025-06-11 18:25:04,680 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-11 18:25:06,891 - INFO - Processed frame 20 in 2.24 seconds
+2025-06-11 18:25:06,891 - INFO - Processing frame 21/105
+2025-06-11 18:25:06,933 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-11 18:25:09,274 - INFO - Processed frame 21 in 2.38 seconds
+2025-06-11 18:25:09,275 - INFO - Processing frame 22/105
+2025-06-11 18:25:09,314 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-11 18:25:11,622 - INFO - Processed frame 22 in 2.35 seconds
+2025-06-11 18:25:11,622 - INFO - Processing frame 23/105
+2025-06-11 18:25:11,657 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-11 18:25:13,905 - INFO - Processed frame 23 in 2.28 seconds
+2025-06-11 18:25:13,906 - INFO - Processing frame 24/105
+2025-06-11 18:25:13,937 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-11 18:25:16,001 - INFO - Processed frame 24 in 2.10 seconds
+2025-06-11 18:25:16,001 - INFO - Processing frame 25/105
+2025-06-11 18:25:16,037 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-11 18:25:18,239 - INFO - Processed frame 25 in 2.24 seconds
+2025-06-11 18:25:18,239 - INFO - Processing frame 26/105
+2025-06-11 18:25:18,288 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-11 18:25:20,302 - INFO - Processed frame 26 in 2.06 seconds
+2025-06-11 18:25:20,303 - INFO - Processing frame 27/105
+2025-06-11 18:25:20,353 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-11 18:25:22,770 - INFO - Processed frame 27 in 2.47 seconds
+2025-06-11 18:25:22,771 - INFO - Processing frame 28/105
+2025-06-11 18:25:22,814 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-11 18:25:24,964 - INFO - Processed frame 28 in 2.19 seconds
+2025-06-11 18:25:24,965 - INFO - Processing frame 29/105
+2025-06-11 18:25:58,884 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-11 18:25:26,981 - INFO - Processed frame 29 in 2.02 seconds
+2025-06-11 18:25:26,981 - INFO - Processing frame 30/105
+2025-06-11 18:25:27,023 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-11 18:25:29,147 - INFO - Processed frame 30 in 2.17 seconds
+2025-06-11 18:25:29,148 - INFO - Processing frame 31/105
+2025-06-11 18:25:29,184 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-11 18:25:31,149 - INFO - Processed frame 31 in 2.00 seconds
+2025-06-11 18:25:31,150 - INFO - Processing frame 32/105
+2025-06-11 18:25:31,190 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-11 18:25:33,331 - INFO - Processed frame 32 in 2.18 seconds
+2025-06-11 18:25:33,332 - INFO - Processing frame 33/105
+2025-06-11 18:25:33,371 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-11 18:25:35,426 - INFO - Processed frame 33 in 2.09 seconds
+2025-06-11 18:25:35,427 - INFO - Processing frame 34/105
+2025-06-11 18:25:35,468 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-11 18:25:37,697 - INFO - Processed frame 34 in 2.27 seconds
+2025-06-11 18:25:37,697 - INFO - Processing frame 35/105
+2025-06-11 18:25:37,741 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-11 18:25:39,991 - INFO - Processed frame 35 in 2.29 seconds
+2025-06-11 18:25:39,992 - INFO - Processing frame 36/105
+2025-06-11 18:26:13,937 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-11 18:25:42,001 - INFO - Processed frame 36 in 2.01 seconds
+2025-06-11 18:25:42,002 - INFO - Processing frame 37/105
+2025-06-11 18:25:42,041 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-11 18:25:44,118 - INFO - Processed frame 37 in 2.12 seconds
+2025-06-11 18:25:44,118 - INFO - Processing frame 38/105
+2025-06-11 18:25:44,146 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-11 18:25:46,092 - INFO - Processed frame 38 in 1.97 seconds
+2025-06-11 18:25:46,092 - INFO - Processing frame 39/105
+2025-06-11 18:25:46,119 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-11 18:25:48,177 - INFO - Processed frame 39 in 2.08 seconds
+2025-06-11 18:25:48,178 - INFO - Processing frame 40/105
+2025-06-11 18:25:48,211 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-11 18:25:50,185 - INFO - Processed frame 40 in 2.01 seconds
+2025-06-11 18:25:50,185 - INFO - Processing frame 41/105
+2025-06-11 18:25:50,214 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-11 18:25:52,369 - INFO - Processed frame 41 in 2.18 seconds
+2025-06-11 18:25:52,369 - INFO - Processing frame 42/105
+2025-06-11 18:25:52,396 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-11 18:25:54,488 - INFO - Processed frame 42 in 2.12 seconds
+2025-06-11 18:25:54,488 - INFO - Processing frame 43/105
+2025-06-11 18:25:54,514 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-11 18:25:56,475 - INFO - Processed frame 43 in 1.99 seconds
+2025-06-11 18:25:56,476 - INFO - Processing frame 44/105
+2025-06-11 18:25:56,504 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-11 18:25:58,600 - INFO - Processed frame 44 in 2.12 seconds
+2025-06-11 18:25:58,601 - INFO - Processing frame 45/105
+2025-06-11 18:25:58,629 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-11 18:26:00,564 - INFO - Processed frame 45 in 1.96 seconds
+2025-06-11 18:26:00,565 - INFO - Processing frame 46/105
+2025-06-11 18:26:00,596 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-11 18:26:02,778 - INFO - Processed frame 46 in 2.21 seconds
+2025-06-11 18:26:02,779 - INFO - Processing frame 47/105
+2025-06-11 18:26:02,808 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-11 18:26:04,927 - INFO - Processed frame 47 in 2.15 seconds
+2025-06-11 18:26:04,928 - INFO - Processing frame 48/105
+2025-06-11 18:26:04,957 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-11 18:26:06,973 - INFO - Processed frame 48 in 2.05 seconds
+2025-06-11 18:26:06,974 - INFO - Processing frame 49/105
+2025-06-11 18:26:07,001 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-11 18:26:09,130 - INFO - Processed frame 49 in 2.16 seconds
+2025-06-11 18:26:09,131 - INFO - Processing frame 50/105
+2025-06-11 18:26:09,159 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-11 18:26:11,164 - INFO - Processed frame 50 in 2.03 seconds
+2025-06-11 18:26:11,165 - INFO - Processing frame 51/105
+2025-06-11 18:26:11,197 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-11 18:26:13,351 - INFO - Processed frame 51 in 2.19 seconds
+2025-06-11 18:26:13,352 - INFO - Processing frame 52/105
+2025-06-11 18:26:13,382 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-11 18:26:15,404 - INFO - Processed frame 52 in 2.05 seconds
+2025-06-11 18:26:15,405 - INFO - Processing frame 53/105
+2025-06-11 18:26:15,436 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-11 18:26:17,555 - INFO - Processed frame 53 in 2.15 seconds
+2025-06-11 18:26:17,556 - INFO - Processing frame 54/105
+2025-06-11 18:26:17,585 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-11 18:26:19,729 - INFO - Processed frame 54 in 2.17 seconds
+2025-06-11 18:26:19,730 - INFO - Processing frame 55/105
+2025-06-11 18:26:19,757 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-11 18:26:21,723 - INFO - Processed frame 55 in 1.99 seconds
+2025-06-11 18:26:21,724 - INFO - Processing frame 56/105
+2025-06-11 18:26:21,753 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-11 18:26:23,817 - INFO - Processed frame 56 in 2.09 seconds
+2025-06-11 18:26:23,818 - INFO - Processing frame 57/105
+2025-06-11 18:26:23,845 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-11 18:26:25,770 - INFO - Processed frame 57 in 1.95 seconds
+2025-06-11 18:26:25,770 - INFO - Processing frame 58/105
+2025-06-11 18:26:25,800 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-11 18:26:27,894 - INFO - Processed frame 58 in 2.12 seconds
+2025-06-11 18:26:27,895 - INFO - Processing frame 59/105
+2025-06-11 18:26:27,923 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-11 18:26:30,047 - INFO - Processed frame 59 in 2.15 seconds
+2025-06-11 18:26:30,048 - INFO - Processing frame 60/105
+2025-06-11 18:26:30,077 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-11 18:26:32,104 - INFO - Processed frame 60 in 2.06 seconds
+2025-06-11 18:26:32,105 - INFO - Processing frame 61/105
+2025-06-11 18:26:32,135 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-11 18:26:34,268 - INFO - Processed frame 61 in 2.16 seconds
+2025-06-11 18:26:34,269 - INFO - Processing frame 62/105
+2025-06-11 18:26:34,296 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-11 18:26:36,287 - INFO - Processed frame 62 in 2.02 seconds
+2025-06-11 18:26:36,288 - INFO - Processing frame 63/105
+2025-06-11 18:26:36,316 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-11 18:26:38,441 - INFO - Processed frame 63 in 2.15 seconds
+2025-06-11 18:26:38,442 - INFO - Processing frame 64/105
+2025-06-11 18:26:38,470 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-11 18:26:40,478 - INFO - Processed frame 64 in 2.04 seconds
+2025-06-11 18:26:40,479 - INFO - Processing frame 65/105
+2025-06-11 18:26:40,511 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-11 18:26:42,526 - INFO - Processed frame 65 in 2.05 seconds
+2025-06-11 18:26:42,527 - INFO - Processing frame 66/105
+2025-06-11 18:26:42,553 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-11 18:26:44,602 - INFO - Processed frame 66 in 2.08 seconds
+2025-06-11 18:26:44,603 - INFO - Processing frame 67/105
+2025-06-11 18:26:44,634 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-11 18:26:46,570 - INFO - Processed frame 67 in 1.97 seconds
+2025-06-11 18:26:46,571 - INFO - Processing frame 68/105
+2025-06-11 18:26:46,600 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-11 18:26:48,700 - INFO - Processed frame 68 in 2.13 seconds
+2025-06-11 18:26:48,701 - INFO - Processing frame 69/105
+2025-06-11 18:26:48,728 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-11 18:26:50,760 - INFO - Processed frame 69 in 2.06 seconds
+2025-06-11 18:26:50,760 - INFO - Processing frame 70/105
+2025-06-11 18:26:50,789 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-11 18:26:52,958 - INFO - Processed frame 70 in 2.20 seconds
+2025-06-11 18:26:52,959 - INFO - Processing frame 71/105
+2025-06-11 18:26:52,986 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-11 18:27:29,068 - INFO - Processed frame 71 in 36.11 seconds
+2025-06-11 18:27:29,068 - INFO - Processing frame 72/105
+2025-06-11 18:26:55,099 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-11 18:26:57,381 - INFO - Processed frame 72 in -31.69 seconds
+2025-06-11 18:26:57,382 - INFO - Processing frame 73/105
+2025-06-11 18:26:57,411 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-11 18:26:59,710 - INFO - Processed frame 73 in 2.33 seconds
+2025-06-11 18:26:59,711 - INFO - Processing frame 74/105
+2025-06-11 18:26:59,740 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-11 18:27:01,941 - INFO - Processed frame 74 in 2.23 seconds
+2025-06-11 18:27:01,941 - INFO - Processing frame 75/105
+2025-06-11 18:27:01,970 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-11 18:27:04,121 - INFO - Processed frame 75 in 2.18 seconds
+2025-06-11 18:27:04,121 - INFO - Processing frame 76/105
+2025-06-11 18:27:04,147 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-11 18:27:06,192 - INFO - Processed frame 76 in 2.07 seconds
+2025-06-11 18:27:06,193 - INFO - Processing frame 77/105
+2025-06-11 18:27:06,221 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-11 18:27:08,367 - INFO - Processed frame 77 in 2.17 seconds
+2025-06-11 18:27:08,368 - INFO - Processing frame 78/105
+2025-06-11 18:27:08,395 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-11 18:27:10,416 - INFO - Processed frame 78 in 2.05 seconds
+2025-06-11 18:27:10,417 - INFO - Processing frame 79/105
+2025-06-11 18:27:10,445 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-11 18:27:12,600 - INFO - Processed frame 79 in 2.18 seconds
+2025-06-11 18:27:12,601 - INFO - Processing frame 80/105
+2025-06-11 18:27:12,630 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-11 18:27:14,786 - INFO - Processed frame 80 in 2.18 seconds
+2025-06-11 18:27:14,786 - INFO - Processing frame 81/105
+2025-06-11 18:27:14,815 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-11 18:27:16,866 - INFO - Processed frame 81 in 2.08 seconds
+2025-06-11 18:27:16,867 - INFO - Processing frame 82/105
+2025-06-11 18:27:16,898 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-11 18:27:19,053 - INFO - Processed frame 82 in 2.19 seconds
+2025-06-11 18:27:19,053 - INFO - Processing frame 83/105
+2025-06-11 18:27:19,081 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-11 18:27:21,066 - INFO - Processed frame 83 in 2.01 seconds
+2025-06-11 18:27:21,067 - INFO - Processing frame 84/105
+2025-06-11 18:27:21,094 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-11 18:27:23,197 - INFO - Processed frame 84 in 2.13 seconds
+2025-06-11 18:27:23,198 - INFO - Processing frame 85/105
+2025-06-11 18:27:23,227 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-11 18:27:25,162 - INFO - Processed frame 85 in 1.96 seconds
+2025-06-11 18:27:25,162 - INFO - Processing frame 86/105
+2025-06-11 18:27:25,192 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-11 18:27:27,226 - INFO - Processed frame 86 in 2.06 seconds
+2025-06-11 18:27:27,226 - INFO - Processing frame 87/105
+2025-06-11 18:27:27,257 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-11 18:27:29,372 - INFO - Processed frame 87 in 2.15 seconds
+2025-06-11 18:27:29,373 - INFO - Processing frame 88/105
+2025-06-11 18:27:29,403 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-11 18:27:31,294 - INFO - Processed frame 88 in 1.92 seconds
+2025-06-11 18:27:31,295 - INFO - Processing frame 89/105
+2025-06-11 18:27:31,326 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-11 18:27:33,418 - INFO - Processed frame 89 in 2.12 seconds
+2025-06-11 18:27:33,418 - INFO - Processing frame 90/105
+2025-06-11 18:27:33,451 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-11 18:27:35,371 - INFO - Processed frame 90 in 1.95 seconds
+2025-06-11 18:27:35,371 - INFO - Processing frame 91/105
+2025-06-11 18:27:35,403 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-11 18:27:36,605 - INFO - Processed frame 91 in 1.23 seconds
+2025-06-11 18:27:36,605 - INFO - Processing frame 92/105
+2025-06-11 18:27:36,634 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-11 18:27:38,169 - INFO - Processed frame 92 in 1.56 seconds
+2025-06-11 18:27:38,169 - INFO - Processing frame 93/105
+2025-06-11 18:27:38,197 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-11 18:27:39,642 - INFO - Processed frame 93 in 1.47 seconds
+2025-06-11 18:27:39,643 - INFO - Processing frame 94/105
+2025-06-11 18:27:39,673 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-11 18:27:41,000 - INFO - Processed frame 94 in 1.36 seconds
+2025-06-11 18:27:41,000 - INFO - Processing frame 95/105
+2025-06-11 18:27:41,031 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-11 18:27:42,473 - INFO - Processed frame 95 in 1.47 seconds
+2025-06-11 18:27:42,473 - INFO - Processing frame 96/105
+2025-06-11 18:27:42,506 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-11 18:27:44,002 - INFO - Processed frame 96 in 1.53 seconds
+2025-06-11 18:27:44,002 - INFO - Processing frame 97/105
+2025-06-11 18:27:44,032 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-11 18:27:45,428 - INFO - Processed frame 97 in 1.43 seconds
+2025-06-11 18:27:45,428 - INFO - Processing frame 98/105
+2025-06-11 18:27:45,459 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-11 18:27:46,987 - INFO - Processed frame 98 in 1.56 seconds
+2025-06-11 18:27:46,987 - INFO - Processing frame 99/105
+2025-06-11 18:27:47,024 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-11 18:27:48,548 - INFO - Processed frame 99 in 1.56 seconds
+2025-06-11 18:27:48,548 - INFO - Processing frame 100/105
+2025-06-11 18:27:48,589 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-11 18:27:50,062 - INFO - Processed frame 100 in 1.51 seconds
+2025-06-11 18:27:50,062 - INFO - Processing frame 101/105
+2025-06-11 18:27:50,120 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-11 18:27:51,463 - INFO - Processed frame 101 in 1.40 seconds
+2025-06-11 18:27:51,463 - INFO - Processing frame 102/105
+2025-06-11 18:27:51,497 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-11 18:27:52,985 - INFO - Processed frame 102 in 1.52 seconds
+2025-06-11 18:27:52,985 - INFO - Processing frame 103/105
+2025-06-11 18:27:53,011 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-11 18:27:54,528 - INFO - Processed frame 103 in 1.54 seconds
+2025-06-11 18:27:54,528 - INFO - Processing frame 104/105
+2025-06-11 18:27:54,560 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-11 18:27:55,905 - INFO - Processed frame 104 in 1.38 seconds
+2025-06-11 18:27:55,905 - INFO - Processing frame 105/105
+2025-06-11 18:27:55,956 - INFO - Frame 105: 520985/997427 valid points
+2025-06-11 18:27:57,436 - INFO - Processed frame 105 in 1.53 seconds
+2025-06-11 18:27:57,436 - INFO - Processed 105/105 frames successfully
+2025-06-11 18:27:57,474 - INFO - Total processing time: 260.71 seconds
+2025-06-11 18:28:13,804 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 18:28:13,804 - INFO - Loading sensor data...
+2025-06-11 18:28:22,156 - INFO - Loaded 501 GNSS points
+2025-06-11 18:29:07,355 - INFO - Split LiDAR data into 105 frames
+2025-06-11 18:29:07,356 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 18:29:07,356 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 18:29:07,356 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 18:29:07,356 - INFO - Processing frame 1/105
+2025-06-11 18:29:07,387 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 18:29:08,779 - INFO - Processed frame 1 in 1.42 seconds
+2025-06-11 18:29:08,780 - INFO - Processing frame 2/105
+2025-06-11 18:29:08,806 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 18:29:10,243 - INFO - Processed frame 2 in 1.46 seconds
+2025-06-11 18:29:10,244 - INFO - Processing frame 3/105
+2025-06-11 18:29:10,271 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 18:29:11,577 - INFO - Processed frame 3 in 1.33 seconds
+2025-06-11 18:29:11,578 - INFO - Processing frame 4/105
+2025-06-11 18:29:11,605 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 18:29:13,010 - INFO - Processed frame 4 in 1.43 seconds
+2025-06-11 18:29:13,011 - INFO - Processing frame 5/105
+2025-06-11 18:29:13,038 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 18:29:14,428 - INFO - Processed frame 5 in 1.42 seconds
+2025-06-11 18:29:14,429 - INFO - Processing frame 6/105
+2025-06-11 18:29:14,457 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 18:29:15,809 - INFO - Processed frame 6 in 1.38 seconds
+2025-06-11 18:29:15,810 - INFO - Processing frame 7/105
+2025-06-11 18:29:15,838 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 18:29:17,363 - INFO - Processed frame 7 in 1.55 seconds
+2025-06-11 18:29:17,363 - INFO - Processing frame 8/105
+2025-06-11 18:29:17,394 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 18:29:18,911 - INFO - Processed frame 8 in 1.55 seconds
+2025-06-11 18:29:18,911 - INFO - Processing frame 9/105
+2025-06-11 18:29:18,941 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 18:29:20,478 - INFO - Processed frame 9 in 1.57 seconds
+2025-06-11 18:29:20,479 - INFO - Processing frame 10/105
+2025-06-11 18:29:20,507 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 18:29:21,745 - INFO - Processed frame 10 in 1.27 seconds
+2025-06-11 18:29:21,746 - INFO - Processing frame 11/105
+2025-06-11 18:29:21,775 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 18:29:23,798 - INFO - Processed frame 11 in 2.05 seconds
+2025-06-11 18:29:23,798 - INFO - Processing frame 12/105
+2025-06-11 18:29:23,830 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 18:29:25,593 - INFO - Processed frame 12 in 1.79 seconds
+2025-06-11 18:29:25,594 - INFO - Processing frame 13/105
+2025-06-11 18:29:25,625 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 18:29:28,009 - INFO - Processed frame 13 in 2.42 seconds
+2025-06-11 18:29:28,009 - INFO - Processing frame 14/105
+2025-06-11 18:29:28,040 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 18:29:30,473 - INFO - Processed frame 14 in 2.46 seconds
+2025-06-11 18:29:30,473 - INFO - Processing frame 15/105
+2025-06-11 18:29:30,503 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 18:29:32,452 - INFO - Processed frame 15 in 1.98 seconds
+2025-06-11 18:29:32,452 - INFO - Processing frame 16/105
+2025-06-11 18:29:32,483 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 18:29:34,918 - INFO - Processed frame 16 in 2.47 seconds
+2025-06-11 18:29:34,918 - INFO - Processing frame 17/105
+2025-06-11 18:29:34,946 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 18:29:36,846 - INFO - Processed frame 17 in 1.93 seconds
+2025-06-11 18:29:36,846 - INFO - Processing frame 18/105
+2025-06-11 18:29:36,876 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-11 18:29:39,255 - INFO - Processed frame 18 in 2.41 seconds
+2025-06-11 18:29:39,255 - INFO - Processing frame 19/105
+2025-06-11 18:29:39,285 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-11 18:29:41,093 - INFO - Processed frame 19 in 1.84 seconds
+2025-06-11 18:29:41,093 - INFO - Processing frame 20/105
+2025-06-11 18:29:41,122 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-11 18:29:43,322 - INFO - Processed frame 20 in 2.23 seconds
+2025-06-11 18:29:43,322 - INFO - Processing frame 21/105
+2025-06-11 18:29:43,348 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-11 18:29:45,412 - INFO - Processed frame 21 in 2.09 seconds
+2025-06-11 18:29:45,412 - INFO - Processing frame 22/105
+2025-06-11 18:29:45,441 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-11 18:29:47,636 - INFO - Processed frame 22 in 2.22 seconds
+2025-06-11 18:29:47,636 - INFO - Processing frame 23/105
+2025-06-11 18:29:47,661 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-11 18:29:49,824 - INFO - Processed frame 23 in 2.19 seconds
+2025-06-11 18:29:49,824 - INFO - Processing frame 24/105
+2025-06-11 18:29:49,851 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-11 18:29:51,855 - INFO - Processed frame 24 in 2.03 seconds
+2025-06-11 18:29:51,856 - INFO - Processing frame 25/105
+2025-06-11 18:29:51,881 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-11 18:29:53,998 - INFO - Processed frame 25 in 2.14 seconds
+2025-06-11 18:29:53,998 - INFO - Processing frame 26/105
+2025-06-11 18:29:54,027 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-11 18:29:56,054 - INFO - Processed frame 26 in 2.06 seconds
+2025-06-11 18:29:56,054 - INFO - Processing frame 27/105
+2025-06-11 18:29:56,080 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-11 18:29:58,166 - INFO - Processed frame 27 in 2.11 seconds
+2025-06-11 18:29:58,167 - INFO - Processing frame 28/105
+2025-06-11 18:29:58,197 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-11 18:30:00,268 - INFO - Processed frame 28 in 2.10 seconds
+2025-06-11 18:30:00,269 - INFO - Processing frame 29/105
+2025-06-11 18:30:00,295 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-11 18:30:02,234 - INFO - Processed frame 29 in 1.97 seconds
+2025-06-11 18:30:02,235 - INFO - Processing frame 30/105
+2025-06-11 18:30:02,268 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-11 18:30:04,348 - INFO - Processed frame 30 in 2.11 seconds
+2025-06-11 18:30:04,349 - INFO - Processing frame 31/105
+2025-06-11 18:30:04,374 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-11 18:30:06,279 - INFO - Processed frame 31 in 1.93 seconds
+2025-06-11 18:30:06,279 - INFO - Processing frame 32/105
+2025-06-11 18:30:06,305 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-11 18:30:08,973 - INFO - Processed frame 32 in 2.69 seconds
+2025-06-11 18:30:08,974 - INFO - Processing frame 33/105
+2025-06-11 18:30:09,009 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-11 18:30:11,244 - INFO - Processed frame 33 in 2.27 seconds
+2025-06-11 18:30:11,244 - INFO - Processing frame 34/105
+2025-06-11 18:30:11,276 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-11 18:30:13,365 - INFO - Processed frame 34 in 2.12 seconds
+2025-06-11 18:30:13,366 - INFO - Processing frame 35/105
+2025-06-11 18:30:13,399 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-11 18:30:15,469 - INFO - Processed frame 35 in 2.10 seconds
+2025-06-11 18:30:15,470 - INFO - Processing frame 36/105
+2025-06-11 18:30:15,501 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-11 18:30:17,391 - INFO - Processed frame 36 in 1.92 seconds
+2025-06-11 18:30:17,391 - INFO - Processing frame 37/105
+2025-06-11 18:30:17,419 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-11 18:30:19,418 - INFO - Processed frame 37 in 2.03 seconds
+2025-06-11 18:30:19,419 - INFO - Processing frame 38/105
+2025-06-11 18:30:19,455 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-11 18:30:21,346 - INFO - Processed frame 38 in 1.93 seconds
+2025-06-11 18:30:21,347 - INFO - Processing frame 39/105
+2025-06-11 18:30:21,377 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-11 18:30:23,417 - INFO - Processed frame 39 in 2.07 seconds
+2025-06-11 18:30:23,417 - INFO - Processing frame 40/105
+2025-06-11 18:30:23,450 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-11 18:30:25,502 - INFO - Processed frame 40 in 2.08 seconds
+2025-06-11 18:30:25,502 - INFO - Processing frame 41/105
+2025-06-11 18:30:59,402 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-11 18:30:27,460 - INFO - Processed frame 41 in 1.96 seconds
+2025-06-11 18:30:27,460 - INFO - Processing frame 42/105
+2025-06-11 18:30:27,490 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-11 18:30:29,522 - INFO - Processed frame 42 in 2.06 seconds
+2025-06-11 18:30:29,522 - INFO - Processing frame 43/105
+2025-06-11 18:30:29,554 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-11 18:30:31,446 - INFO - Processed frame 43 in 1.92 seconds
+2025-06-11 18:30:31,446 - INFO - Processing frame 44/105
+2025-06-11 18:30:31,474 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-11 18:30:33,491 - INFO - Processed frame 44 in 2.04 seconds
+2025-06-11 18:30:33,492 - INFO - Processing frame 45/105
+2025-06-11 18:30:33,526 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-11 18:30:35,531 - INFO - Processed frame 45 in 2.04 seconds
+2025-06-11 18:30:35,531 - INFO - Processing frame 46/105
+2025-06-11 18:31:09,429 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-11 18:30:37,461 - INFO - Processed frame 46 in 1.93 seconds
+2025-06-11 18:30:37,462 - INFO - Processing frame 47/105
+2025-06-11 18:30:37,493 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-11 18:30:39,514 - INFO - Processed frame 47 in 2.05 seconds
+2025-06-11 18:30:39,514 - INFO - Processing frame 48/105
+2025-06-11 18:30:39,543 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-11 18:30:41,462 - INFO - Processed frame 48 in 1.95 seconds
+2025-06-11 18:30:41,463 - INFO - Processing frame 49/105
+2025-06-11 18:30:41,491 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-11 18:30:43,529 - INFO - Processed frame 49 in 2.07 seconds
+2025-06-11 18:30:43,530 - INFO - Processing frame 50/105
+2025-06-11 18:30:43,561 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-11 18:30:45,501 - INFO - Processed frame 50 in 1.97 seconds
+2025-06-11 18:30:45,502 - INFO - Processing frame 51/105
+2025-06-11 18:30:45,533 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-11 18:30:47,621 - INFO - Processed frame 51 in 2.12 seconds
+2025-06-11 18:30:47,622 - INFO - Processing frame 52/105
+2025-06-11 18:30:47,651 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-11 18:30:49,816 - INFO - Processed frame 52 in 2.19 seconds
+2025-06-11 18:30:49,817 - INFO - Processing frame 53/105
+2025-06-11 18:30:49,849 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-11 18:30:51,853 - INFO - Processed frame 53 in 2.04 seconds
+2025-06-11 18:30:51,854 - INFO - Processing frame 54/105
+2025-06-11 18:30:51,888 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-11 18:30:54,026 - INFO - Processed frame 54 in 2.17 seconds
+2025-06-11 18:30:54,026 - INFO - Processing frame 55/105
+2025-06-11 18:30:54,059 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-11 18:30:56,037 - INFO - Processed frame 55 in 2.01 seconds
+2025-06-11 18:30:56,037 - INFO - Processing frame 56/105
+2025-06-11 18:30:56,069 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-11 18:30:58,163 - INFO - Processed frame 56 in 2.13 seconds
+2025-06-11 18:30:58,163 - INFO - Processing frame 57/105
+2025-06-11 18:30:58,193 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-11 18:31:00,263 - INFO - Processed frame 57 in 2.10 seconds
+2025-06-11 18:31:00,264 - INFO - Processing frame 58/105
+2025-06-11 18:31:00,293 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-11 18:31:02,433 - INFO - Processed frame 58 in 2.17 seconds
+2025-06-11 18:31:02,433 - INFO - Processing frame 59/105
+2025-06-11 18:31:02,468 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-11 18:31:04,791 - INFO - Processed frame 59 in 2.36 seconds
+2025-06-11 18:31:04,792 - INFO - Processing frame 60/105
+2025-06-11 18:31:04,824 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-11 18:31:06,941 - INFO - Processed frame 60 in 2.15 seconds
+2025-06-11 18:31:06,942 - INFO - Processing frame 61/105
+2025-06-11 18:31:06,971 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-11 18:31:09,327 - INFO - Processed frame 61 in 2.39 seconds
+2025-06-11 18:31:09,328 - INFO - Processing frame 62/105
+2025-06-11 18:31:09,358 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-11 18:31:11,401 - INFO - Processed frame 62 in 2.07 seconds
+2025-06-11 18:31:11,402 - INFO - Processing frame 63/105
+2025-06-11 18:31:11,435 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-11 18:31:13,511 - INFO - Processed frame 63 in 2.11 seconds
+2025-06-11 18:31:13,512 - INFO - Processing frame 64/105
+2025-06-11 18:31:13,539 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-11 18:31:15,539 - INFO - Processed frame 64 in 2.03 seconds
+2025-06-11 18:31:15,540 - INFO - Processing frame 65/105
+2025-06-11 18:31:15,573 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-11 18:31:17,820 - INFO - Processed frame 65 in 2.28 seconds
+2025-06-11 18:31:17,821 - INFO - Processing frame 66/105
+2025-06-11 18:31:17,856 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-11 18:31:20,007 - INFO - Processed frame 66 in 2.19 seconds
+2025-06-11 18:31:20,008 - INFO - Processing frame 67/105
+2025-06-11 18:31:20,038 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-11 18:31:21,674 - INFO - Processed frame 67 in 1.67 seconds
+2025-06-11 18:31:21,675 - INFO - Processing frame 68/105
+2025-06-11 18:31:21,704 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-11 18:31:23,734 - INFO - Processed frame 68 in 2.06 seconds
+2025-06-11 18:31:23,735 - INFO - Processing frame 69/105
+2025-06-11 18:31:23,770 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-11 18:31:25,778 - INFO - Processed frame 69 in 2.04 seconds
+2025-06-11 18:31:25,779 - INFO - Processing frame 70/105
+2025-06-11 18:31:25,817 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-11 18:31:27,975 - INFO - Processed frame 70 in 2.20 seconds
+2025-06-11 18:31:27,975 - INFO - Processing frame 71/105
+2025-06-11 18:31:28,014 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-11 18:31:30,160 - INFO - Processed frame 71 in 2.18 seconds
+2025-06-11 18:31:30,160 - INFO - Processing frame 72/105
+2025-06-11 18:31:30,191 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-11 18:31:32,184 - INFO - Processed frame 72 in 2.02 seconds
+2025-06-11 18:31:32,185 - INFO - Processing frame 73/105
+2025-06-11 18:31:32,214 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-11 18:31:34,352 - INFO - Processed frame 73 in 2.17 seconds
+2025-06-11 18:31:34,352 - INFO - Processing frame 74/105
+2025-06-11 18:31:34,383 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-11 18:31:36,400 - INFO - Processed frame 74 in 2.05 seconds
+2025-06-11 18:31:36,400 - INFO - Processing frame 75/105
+2025-06-11 18:31:36,428 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-11 18:31:38,553 - INFO - Processed frame 75 in 2.15 seconds
+2025-06-11 18:31:38,553 - INFO - Processing frame 76/105
+2025-06-11 18:31:38,584 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-11 18:31:40,638 - INFO - Processed frame 76 in 2.08 seconds
+2025-06-11 18:31:40,639 - INFO - Processing frame 77/105
+2025-06-11 18:31:40,664 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-11 18:31:42,746 - INFO - Processed frame 77 in 2.11 seconds
+2025-06-11 18:31:42,746 - INFO - Processing frame 78/105
+2025-06-11 18:31:42,775 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-11 18:31:44,863 - INFO - Processed frame 78 in 2.12 seconds
+2025-06-11 18:31:44,864 - INFO - Processing frame 79/105
+2025-06-11 18:31:44,889 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-11 18:31:46,850 - INFO - Processed frame 79 in 1.99 seconds
+2025-06-11 18:31:46,851 - INFO - Processing frame 80/105
+2025-06-11 18:31:46,878 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-11 18:31:48,945 - INFO - Processed frame 80 in 2.09 seconds
+2025-06-11 18:31:48,945 - INFO - Processing frame 81/105
+2025-06-11 18:31:48,975 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-11 18:31:50,937 - INFO - Processed frame 81 in 1.99 seconds
+2025-06-11 18:31:50,938 - INFO - Processing frame 82/105
+2025-06-11 18:31:50,968 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-11 18:31:53,083 - INFO - Processed frame 82 in 2.15 seconds
+2025-06-11 18:31:53,084 - INFO - Processing frame 83/105
+2025-06-11 18:31:53,112 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-11 18:31:55,163 - INFO - Processed frame 83 in 2.08 seconds
+2025-06-11 18:31:55,164 - INFO - Processing frame 84/105
+2025-06-11 18:31:55,193 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-11 18:31:57,083 - INFO - Processed frame 84 in 1.92 seconds
+2025-06-11 18:31:57,083 - INFO - Processing frame 85/105
+2025-06-11 18:31:57,111 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-11 18:31:59,101 - INFO - Processed frame 85 in 2.02 seconds
+2025-06-11 18:31:59,102 - INFO - Processing frame 86/105
+2025-06-11 18:31:59,128 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-11 18:32:01,073 - INFO - Processed frame 86 in 1.97 seconds
+2025-06-11 18:32:01,073 - INFO - Processing frame 87/105
+2025-06-11 18:32:01,100 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-11 18:32:03,110 - INFO - Processed frame 87 in 2.04 seconds
+2025-06-11 18:32:03,111 - INFO - Processing frame 88/105
+2025-06-11 18:32:03,140 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-11 18:32:05,071 - INFO - Processed frame 88 in 1.96 seconds
+2025-06-11 18:32:05,072 - INFO - Processing frame 89/105
+2025-06-11 18:32:05,099 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-11 18:32:06,893 - INFO - Processed frame 89 in 1.82 seconds
+2025-06-11 18:32:06,893 - INFO - Processing frame 90/105
+2025-06-11 18:32:06,918 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-11 18:32:08,658 - INFO - Processed frame 90 in 1.76 seconds
+2025-06-11 18:32:08,658 - INFO - Processing frame 91/105
+2025-06-11 18:32:08,682 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-11 18:32:10,264 - INFO - Processed frame 91 in 1.61 seconds
+2025-06-11 18:32:10,265 - INFO - Processing frame 92/105
+2025-06-11 18:32:10,295 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-11 18:32:11,650 - INFO - Processed frame 92 in 1.39 seconds
+2025-06-11 18:32:11,650 - INFO - Processing frame 93/105
+2025-06-11 18:32:11,683 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-11 18:32:13,129 - INFO - Processed frame 93 in 1.48 seconds
+2025-06-11 18:32:13,129 - INFO - Processing frame 94/105
+2025-06-11 18:32:13,174 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-11 18:32:14,605 - INFO - Processed frame 94 in 1.48 seconds
+2025-06-11 18:32:14,605 - INFO - Processing frame 95/105
+2025-06-11 18:32:14,672 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-11 18:32:15,961 - INFO - Processed frame 95 in 1.36 seconds
+2025-06-11 18:32:15,961 - INFO - Processing frame 96/105
+2025-06-11 18:32:16,029 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-11 18:32:17,421 - INFO - Processed frame 96 in 1.46 seconds
+2025-06-11 18:32:17,421 - INFO - Processing frame 97/105
+2025-06-11 18:32:17,497 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-11 18:32:18,933 - INFO - Processed frame 97 in 1.51 seconds
+2025-06-11 18:32:18,933 - INFO - Processing frame 98/105
+2025-06-11 18:32:19,014 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-11 18:32:20,426 - INFO - Processed frame 98 in 1.49 seconds
+2025-06-11 18:32:20,426 - INFO - Processing frame 99/105
+2025-06-11 18:32:20,511 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-11 18:32:21,801 - INFO - Processed frame 99 in 1.38 seconds
+2025-06-11 18:32:21,801 - INFO - Processing frame 100/105
+2025-06-11 18:32:21,863 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-11 18:32:23,286 - INFO - Processed frame 100 in 1.49 seconds
+2025-06-11 18:32:23,287 - INFO - Processing frame 101/105
+2025-06-11 18:32:23,337 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-11 18:32:24,749 - INFO - Processed frame 101 in 1.46 seconds
+2025-06-11 18:32:24,749 - INFO - Processing frame 102/105
+2025-06-11 18:32:24,799 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-11 18:32:26,167 - INFO - Processed frame 102 in 1.42 seconds
+2025-06-11 18:32:26,167 - INFO - Processing frame 103/105
+2025-06-11 18:32:26,224 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-11 18:32:27,643 - INFO - Processed frame 103 in 1.48 seconds
+2025-06-11 18:32:27,643 - INFO - Processing frame 104/105
+2025-06-11 18:32:27,711 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-11 18:32:29,117 - INFO - Processed frame 104 in 1.47 seconds
+2025-06-11 18:32:29,117 - INFO - Processing frame 105/105
+2025-06-11 18:32:29,181 - INFO - Frame 105: 520985/997427 valid points
+2025-06-11 18:32:30,552 - INFO - Processed frame 105 in 1.43 seconds
+2025-06-11 18:32:30,552 - INFO - Processed 105/105 frames successfully
+2025-06-11 18:32:30,613 - INFO - Total processing time: 256.81 seconds
+2025-06-11 18:40:38,029 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 18:40:38,029 - INFO - Loading sensor data...
+2025-06-11 18:40:46,339 - INFO - Loaded 501 GNSS points
+2025-06-11 18:41:28,431 - INFO - Split LiDAR data into 105 frames
+2025-06-11 18:41:28,432 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 18:41:28,432 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 18:41:28,432 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 18:41:28,432 - INFO - Processing frame 1/105
+2025-06-11 18:41:28,461 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 18:41:32,020 - INFO - Processed frame 1 in 3.59 seconds
+2025-06-11 18:41:32,021 - INFO - Processing frame 2/105
+2025-06-11 18:41:32,047 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 18:41:35,634 - INFO - Processed frame 2 in 3.61 seconds
+2025-06-11 18:41:35,635 - INFO - Processing frame 3/105
+2025-06-11 18:41:35,661 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 18:41:39,173 - INFO - Processed frame 3 in 3.54 seconds
+2025-06-11 18:41:39,174 - INFO - Processing frame 4/105
+2025-06-11 18:41:39,201 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 18:41:42,625 - INFO - Processed frame 4 in 3.45 seconds
+2025-06-11 18:41:42,625 - INFO - Processing frame 5/105
+2025-06-11 18:41:42,652 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 18:41:46,251 - INFO - Processed frame 5 in 3.63 seconds
+2025-06-11 18:41:46,252 - INFO - Processing frame 6/105
+2025-06-11 18:41:46,276 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 18:41:49,998 - INFO - Processed frame 6 in 3.75 seconds
+2025-06-11 18:41:49,999 - INFO - Processing frame 7/105
+2025-06-11 18:41:50,024 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 18:41:53,694 - INFO - Processed frame 7 in 3.69 seconds
+2025-06-11 18:41:53,695 - INFO - Processing frame 8/105
+2025-06-11 18:41:53,720 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 18:41:57,391 - INFO - Processed frame 8 in 3.70 seconds
+2025-06-11 18:41:57,392 - INFO - Processing frame 9/105
+2025-06-11 18:41:57,420 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 18:42:01,276 - INFO - Processed frame 9 in 3.88 seconds
+2025-06-11 18:42:01,277 - INFO - Processing frame 10/105
+2025-06-11 18:42:01,305 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 18:42:05,549 - INFO - Processed frame 10 in 4.27 seconds
+2025-06-11 18:42:05,550 - INFO - Processing frame 11/105
+2025-06-11 18:42:05,579 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 18:42:10,506 - INFO - Processed frame 11 in 4.96 seconds
+2025-06-11 18:42:10,507 - INFO - Processing frame 12/105
+2025-06-11 18:42:10,536 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 18:42:15,941 - INFO - Processed frame 12 in 5.43 seconds
+2025-06-11 18:42:15,942 - INFO - Processing frame 13/105
+2025-06-11 18:42:15,972 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 18:42:21,818 - INFO - Processed frame 13 in 5.88 seconds
+2025-06-11 18:42:21,818 - INFO - Processing frame 14/105
+2025-06-11 18:42:55,709 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 18:42:27,753 - INFO - Processed frame 14 in 5.94 seconds
+2025-06-11 18:42:27,754 - INFO - Processing frame 15/105
+2025-06-11 18:42:27,784 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 18:42:33,675 - INFO - Processed frame 15 in 5.92 seconds
+2025-06-11 18:42:33,675 - INFO - Processing frame 16/105
+2025-06-11 18:42:33,704 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 18:42:39,589 - INFO - Processed frame 16 in 5.91 seconds
+2025-06-11 18:42:39,589 - INFO - Processing frame 17/105
+2025-06-11 18:42:39,616 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 18:43:17,286 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 18:43:17,286 - INFO - Loading sensor data...
+2025-06-11 18:43:24,857 - INFO - Loaded 501 GNSS points
+2025-06-11 18:44:07,190 - INFO - Split LiDAR data into 105 frames
+2025-06-11 18:44:07,191 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 18:44:07,191 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 18:44:07,191 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 18:44:07,191 - INFO - Processing frame 1/105
+2025-06-11 18:44:07,224 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 18:44:08,596 - INFO - Processed frame 1 in 1.40 seconds
+2025-06-11 18:44:08,596 - INFO - Processing frame 2/105
+2025-06-11 18:44:08,624 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 18:44:09,988 - INFO - Processed frame 2 in 1.39 seconds
+2025-06-11 18:44:09,988 - INFO - Processing frame 3/105
+2025-06-11 18:44:10,014 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 18:44:11,367 - INFO - Processed frame 3 in 1.38 seconds
+2025-06-11 18:44:11,367 - INFO - Processing frame 4/105
+2025-06-11 18:44:11,393 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 18:44:12,631 - INFO - Processed frame 4 in 1.26 seconds
+2025-06-11 18:44:12,632 - INFO - Processing frame 5/105
+2025-06-11 18:44:12,658 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 18:44:14,026 - INFO - Processed frame 5 in 1.39 seconds
+2025-06-11 18:44:14,027 - INFO - Processing frame 6/105
+2025-06-11 18:44:14,053 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 18:44:15,410 - INFO - Processed frame 6 in 1.38 seconds
+2025-06-11 18:44:15,411 - INFO - Processing frame 7/105
+2025-06-11 18:44:15,438 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 18:44:16,792 - INFO - Processed frame 7 in 1.38 seconds
+2025-06-11 18:44:16,793 - INFO - Processing frame 8/105
+2025-06-11 18:44:16,818 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 18:44:18,087 - INFO - Processed frame 8 in 1.29 seconds
+2025-06-11 18:44:18,088 - INFO - Processing frame 9/105
+2025-06-11 18:44:18,113 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 18:44:19,510 - INFO - Processed frame 9 in 1.42 seconds
+2025-06-11 18:44:19,511 - INFO - Processing frame 10/105
+2025-06-11 18:44:19,540 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 18:44:21,125 - INFO - Processed frame 10 in 1.61 seconds
+2025-06-11 18:44:21,126 - INFO - Processing frame 11/105
+2025-06-11 18:44:21,157 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 18:44:22,918 - INFO - Processed frame 11 in 1.79 seconds
+2025-06-11 18:44:22,919 - INFO - Processing frame 12/105
+2025-06-11 18:44:22,948 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 18:44:25,057 - INFO - Processed frame 12 in 2.14 seconds
+2025-06-11 18:44:25,058 - INFO - Processing frame 13/105
+2025-06-11 18:44:25,090 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 18:44:27,154 - INFO - Processed frame 13 in 2.10 seconds
+2025-06-11 18:44:27,154 - INFO - Processing frame 14/105
+2025-06-11 18:44:27,184 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 18:44:29,424 - INFO - Processed frame 14 in 2.27 seconds
+2025-06-11 18:44:29,425 - INFO - Processing frame 15/105
+2025-06-11 18:44:29,451 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 18:44:31,654 - INFO - Processed frame 15 in 2.23 seconds
+2025-06-11 18:44:31,654 - INFO - Processing frame 16/105
+2025-06-11 18:44:31,683 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 18:44:33,790 - INFO - Processed frame 16 in 2.14 seconds
+2025-06-11 18:44:33,790 - INFO - Processing frame 17/105
+2025-06-11 18:44:33,818 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 18:44:36,005 - INFO - Processed frame 17 in 2.21 seconds
+2025-06-11 18:44:36,005 - INFO - Processing frame 18/105
+2025-06-11 18:44:36,033 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-11 18:44:38,066 - INFO - Processed frame 18 in 2.06 seconds
+2025-06-11 18:44:38,066 - INFO - Processing frame 19/105
+2025-06-11 18:44:38,093 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-11 18:44:40,215 - INFO - Processed frame 19 in 2.15 seconds
+2025-06-11 18:44:40,215 - INFO - Processing frame 20/105
+2025-06-11 18:44:40,242 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-11 18:44:42,271 - INFO - Processed frame 20 in 2.06 seconds
+2025-06-11 18:44:42,271 - INFO - Processing frame 21/105
+2025-06-11 18:44:42,298 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-11 18:44:44,446 - INFO - Processed frame 21 in 2.17 seconds
+2025-06-11 18:44:44,446 - INFO - Processing frame 22/105
+2025-06-11 18:44:44,475 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-11 18:44:46,668 - INFO - Processed frame 22 in 2.22 seconds
+2025-06-11 18:44:46,668 - INFO - Processing frame 23/105
+2025-06-11 18:44:46,694 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-11 18:44:48,728 - INFO - Processed frame 23 in 2.06 seconds
+2025-06-11 18:44:48,728 - INFO - Processing frame 24/105
+2025-06-11 18:44:48,757 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-11 18:44:50,901 - INFO - Processed frame 24 in 2.17 seconds
+2025-06-11 18:44:50,902 - INFO - Processing frame 25/105
+2025-06-11 18:44:50,930 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-11 18:44:52,936 - INFO - Processed frame 25 in 2.03 seconds
+2025-06-11 18:44:52,936 - INFO - Processing frame 26/105
+2025-06-11 18:44:52,964 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-11 18:44:55,086 - INFO - Processed frame 26 in 2.15 seconds
+2025-06-11 18:44:55,086 - INFO - Processing frame 27/105
+2025-06-11 18:44:55,113 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-11 18:44:57,072 - INFO - Processed frame 27 in 1.99 seconds
+2025-06-11 18:44:57,073 - INFO - Processing frame 28/105
+2025-06-11 18:44:57,100 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-11 18:44:59,167 - INFO - Processed frame 28 in 2.09 seconds
+2025-06-11 18:44:59,167 - INFO - Processing frame 29/105
+2025-06-11 18:44:59,196 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-11 18:45:01,268 - INFO - Processed frame 29 in 2.10 seconds
+2025-06-11 18:45:01,268 - INFO - Processing frame 30/105
+2025-06-11 18:45:01,296 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-11 18:45:03,304 - INFO - Processed frame 30 in 2.04 seconds
+2025-06-11 18:45:03,304 - INFO - Processing frame 31/105
+2025-06-11 18:45:03,336 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-11 18:45:05,442 - INFO - Processed frame 31 in 2.14 seconds
+2025-06-11 18:45:05,443 - INFO - Processing frame 32/105
+2025-06-11 18:45:05,470 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-11 18:45:07,469 - INFO - Processed frame 32 in 2.03 seconds
+2025-06-11 18:45:07,469 - INFO - Processing frame 33/105
+2025-06-11 18:45:07,497 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-11 18:45:09,621 - INFO - Processed frame 33 in 2.15 seconds
+2025-06-11 18:45:09,621 - INFO - Processing frame 34/105
+2025-06-11 18:45:09,649 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-11 18:45:11,782 - INFO - Processed frame 34 in 2.16 seconds
+2025-06-11 18:45:11,783 - INFO - Processing frame 35/105
+2025-06-11 18:45:11,810 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-11 18:45:13,802 - INFO - Processed frame 35 in 2.02 seconds
+2025-06-11 18:45:13,803 - INFO - Processing frame 36/105
+2025-06-11 18:45:13,829 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-11 18:45:15,878 - INFO - Processed frame 36 in 2.08 seconds
+2025-06-11 18:45:15,879 - INFO - Processing frame 37/105
+2025-06-11 18:45:15,905 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-11 18:45:17,832 - INFO - Processed frame 37 in 1.95 seconds
+2025-06-11 18:45:17,832 - INFO - Processing frame 38/105
+2025-06-11 18:45:17,859 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-11 18:45:19,918 - INFO - Processed frame 38 in 2.09 seconds
+2025-06-11 18:45:19,919 - INFO - Processing frame 39/105
+2025-06-11 18:45:19,945 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-11 18:45:22,041 - INFO - Processed frame 39 in 2.12 seconds
+2025-06-11 18:45:22,042 - INFO - Processing frame 40/105
+2025-06-11 18:45:22,070 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-11 18:45:24,056 - INFO - Processed frame 40 in 2.01 seconds
+2025-06-11 18:45:24,057 - INFO - Processing frame 41/105
+2025-06-11 18:45:24,084 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-11 18:45:26,249 - INFO - Processed frame 41 in 2.19 seconds
+2025-06-11 18:45:26,250 - INFO - Processing frame 42/105
+2025-06-11 18:45:26,280 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-11 18:45:28,298 - INFO - Processed frame 42 in 2.05 seconds
+2025-06-11 18:45:28,299 - INFO - Processing frame 43/105
+2025-06-11 18:45:28,339 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-11 18:45:30,817 - INFO - Processed frame 43 in 2.52 seconds
+2025-06-11 18:45:30,818 - INFO - Processing frame 44/105
+2025-06-11 18:45:30,849 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-11 18:45:32,736 - INFO - Processed frame 44 in 1.92 seconds
+2025-06-11 18:45:32,737 - INFO - Processing frame 45/105
+2025-06-11 18:45:32,772 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-11 18:45:35,084 - INFO - Processed frame 45 in 2.35 seconds
+2025-06-11 18:45:35,084 - INFO - Processing frame 46/105
+2025-06-11 18:45:35,116 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-11 18:45:37,466 - INFO - Processed frame 46 in 2.38 seconds
+2025-06-11 18:45:37,467 - INFO - Processing frame 47/105
+2025-06-11 18:45:37,496 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-11 18:45:39,276 - INFO - Processed frame 47 in 1.81 seconds
+2025-06-11 18:45:39,276 - INFO - Processing frame 48/105
+2025-06-11 18:45:39,304 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-11 18:45:41,582 - INFO - Processed frame 48 in 2.31 seconds
+2025-06-11 18:45:41,583 - INFO - Processing frame 49/105
+2025-06-11 18:45:41,616 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-11 18:45:43,315 - INFO - Processed frame 49 in 1.73 seconds
+2025-06-11 18:45:43,316 - INFO - Processing frame 50/105
+2025-06-11 18:45:43,348 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-11 18:45:45,716 - INFO - Processed frame 50 in 2.40 seconds
+2025-06-11 18:45:45,717 - INFO - Processing frame 51/105
+2025-06-11 18:45:45,759 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-11 18:45:47,539 - INFO - Processed frame 51 in 1.82 seconds
+2025-06-11 18:45:47,540 - INFO - Processing frame 52/105
+2025-06-11 18:45:47,573 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-11 18:45:49,836 - INFO - Processed frame 52 in 2.30 seconds
+2025-06-11 18:45:49,837 - INFO - Processing frame 53/105
+2025-06-11 18:45:49,867 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-11 18:45:52,121 - INFO - Processed frame 53 in 2.28 seconds
+2025-06-11 18:45:52,122 - INFO - Processing frame 54/105
+2025-06-11 18:45:52,154 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-11 18:45:53,783 - INFO - Processed frame 54 in 1.66 seconds
+2025-06-11 18:45:53,783 - INFO - Processing frame 55/105
+2025-06-11 18:45:53,811 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-11 18:45:55,854 - INFO - Processed frame 55 in 2.07 seconds
+2025-06-11 18:45:55,855 - INFO - Processing frame 56/105
+2025-06-11 18:45:55,882 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-11 18:45:57,791 - INFO - Processed frame 56 in 1.94 seconds
+2025-06-11 18:45:57,792 - INFO - Processing frame 57/105
+2025-06-11 18:45:57,819 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-11 18:46:00,014 - INFO - Processed frame 57 in 2.22 seconds
+2025-06-11 18:46:00,014 - INFO - Processing frame 58/105
+2025-06-11 18:46:00,059 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-11 18:46:36,117 - INFO - Processed frame 58 in 36.10 seconds
+2025-06-11 18:46:36,117 - INFO - Processing frame 59/105
+2025-06-11 18:46:02,168 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-11 18:46:04,278 - INFO - Processed frame 59 in -31.84 seconds
+2025-06-11 18:46:04,279 - INFO - Processing frame 60/105
+2025-06-11 18:46:04,308 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-11 18:46:06,415 - INFO - Processed frame 60 in 2.14 seconds
+2025-06-11 18:46:06,416 - INFO - Processing frame 61/105
+2025-06-11 18:46:06,447 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-11 18:46:08,393 - INFO - Processed frame 61 in 1.98 seconds
+2025-06-11 18:46:08,394 - INFO - Processing frame 62/105
+2025-06-11 18:46:08,423 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-11 18:46:10,529 - INFO - Processed frame 62 in 2.14 seconds
+2025-06-11 18:46:10,530 - INFO - Processing frame 63/105
+2025-06-11 18:46:10,560 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-11 18:46:12,453 - INFO - Processed frame 63 in 1.92 seconds
+2025-06-11 18:46:12,454 - INFO - Processing frame 64/105
+2025-06-11 18:46:12,485 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-11 18:46:14,560 - INFO - Processed frame 64 in 2.11 seconds
+2025-06-11 18:46:14,561 - INFO - Processing frame 65/105
+2025-06-11 18:46:14,594 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-11 18:46:16,747 - INFO - Processed frame 65 in 2.19 seconds
+2025-06-11 18:46:16,748 - INFO - Processing frame 66/105
+2025-06-11 18:46:16,790 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-11 18:46:18,596 - INFO - Processed frame 66 in 1.85 seconds
+2025-06-11 18:46:18,597 - INFO - Processing frame 67/105
+2025-06-11 18:46:18,627 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-11 18:46:20,781 - INFO - Processed frame 67 in 2.18 seconds
+2025-06-11 18:46:20,782 - INFO - Processing frame 68/105
+2025-06-11 18:46:20,814 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-11 18:46:22,542 - INFO - Processed frame 68 in 1.76 seconds
+2025-06-11 18:46:22,543 - INFO - Processing frame 69/105
+2025-06-11 18:46:22,575 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-11 18:46:24,862 - INFO - Processed frame 69 in 2.32 seconds
+2025-06-11 18:46:24,863 - INFO - Processing frame 70/105
+2025-06-11 18:46:24,902 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-11 18:46:27,190 - INFO - Processed frame 70 in 2.33 seconds
+2025-06-11 18:46:27,191 - INFO - Processing frame 71/105
+2025-06-11 18:46:27,225 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-11 18:46:29,062 - INFO - Processed frame 71 in 1.87 seconds
+2025-06-11 18:46:29,062 - INFO - Processing frame 72/105
+2025-06-11 18:46:29,093 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-11 18:46:31,386 - INFO - Processed frame 72 in 2.32 seconds
+2025-06-11 18:46:31,387 - INFO - Processing frame 73/105
+2025-06-11 18:46:31,418 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-11 18:46:33,176 - INFO - Processed frame 73 in 1.79 seconds
+2025-06-11 18:46:33,177 - INFO - Processing frame 74/105
+2025-06-11 18:46:33,212 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-11 18:46:35,376 - INFO - Processed frame 74 in 2.20 seconds
+2025-06-11 18:46:35,376 - INFO - Processing frame 75/105
+2025-06-11 18:46:35,403 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-11 18:46:37,392 - INFO - Processed frame 75 in 2.02 seconds
+2025-06-11 18:46:37,393 - INFO - Processing frame 76/105
+2025-06-11 18:46:37,421 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-11 18:46:39,529 - INFO - Processed frame 76 in 2.14 seconds
+2025-06-11 18:46:39,529 - INFO - Processing frame 77/105
+2025-06-11 18:46:39,558 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-11 18:46:41,732 - INFO - Processed frame 77 in 2.20 seconds
+2025-06-11 18:46:41,732 - INFO - Processing frame 78/105
+2025-06-11 18:46:41,770 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-11 18:46:43,773 - INFO - Processed frame 78 in 2.04 seconds
+2025-06-11 18:46:43,773 - INFO - Processing frame 79/105
+2025-06-11 18:46:43,801 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-11 18:46:45,889 - INFO - Processed frame 79 in 2.12 seconds
+2025-06-11 18:46:45,889 - INFO - Processing frame 80/105
+2025-06-11 18:46:45,918 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-11 18:46:47,902 - INFO - Processed frame 80 in 2.01 seconds
+2025-06-11 18:46:47,902 - INFO - Processing frame 81/105
+2025-06-11 18:46:47,932 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-11 18:46:50,018 - INFO - Processed frame 81 in 2.12 seconds
+2025-06-11 18:46:50,018 - INFO - Processing frame 82/105
+2025-06-11 18:46:50,047 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-11 18:46:52,136 - INFO - Processed frame 82 in 2.12 seconds
+2025-06-11 18:46:52,137 - INFO - Processing frame 83/105
+2025-06-11 18:46:52,165 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-11 18:46:54,110 - INFO - Processed frame 83 in 1.97 seconds
+2025-06-11 18:46:54,111 - INFO - Processing frame 84/105
+2025-06-11 18:46:54,141 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-11 18:46:56,344 - INFO - Processed frame 84 in 2.23 seconds
+2025-06-11 18:46:56,345 - INFO - Processing frame 85/105
+2025-06-11 18:46:56,380 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-11 18:46:58,078 - INFO - Processed frame 85 in 1.73 seconds
+2025-06-11 18:46:58,079 - INFO - Processing frame 86/105
+2025-06-11 18:46:58,106 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-11 18:47:00,070 - INFO - Processed frame 86 in 1.99 seconds
+2025-06-11 18:47:00,071 - INFO - Processing frame 87/105
+2025-06-11 18:47:00,099 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-11 18:47:02,051 - INFO - Processed frame 87 in 1.98 seconds
+2025-06-11 18:47:02,051 - INFO - Processing frame 88/105
+2025-06-11 18:47:02,078 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-11 18:47:03,913 - INFO - Processed frame 88 in 1.86 seconds
+2025-06-11 18:47:03,913 - INFO - Processing frame 89/105
+2025-06-11 18:47:03,948 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-11 18:47:05,815 - INFO - Processed frame 89 in 1.90 seconds
+2025-06-11 18:47:05,815 - INFO - Processing frame 90/105
+2025-06-11 18:47:05,844 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-11 18:47:07,467 - INFO - Processed frame 90 in 1.65 seconds
+2025-06-11 18:47:07,468 - INFO - Processing frame 91/105
+2025-06-11 18:47:07,495 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-11 18:47:09,076 - INFO - Processed frame 91 in 1.61 seconds
+2025-06-11 18:47:09,076 - INFO - Processing frame 92/105
+2025-06-11 18:47:09,105 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-11 18:47:10,582 - INFO - Processed frame 92 in 1.51 seconds
+2025-06-11 18:47:10,582 - INFO - Processing frame 93/105
+2025-06-11 18:47:10,609 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-11 18:47:12,018 - INFO - Processed frame 93 in 1.44 seconds
+2025-06-11 18:47:12,019 - INFO - Processing frame 94/105
+2025-06-11 18:47:12,047 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-11 18:47:13,351 - INFO - Processed frame 94 in 1.33 seconds
+2025-06-11 18:47:13,351 - INFO - Processing frame 95/105
+2025-06-11 18:47:13,377 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-11 18:47:14,787 - INFO - Processed frame 95 in 1.44 seconds
+2025-06-11 18:47:14,787 - INFO - Processing frame 96/105
+2025-06-11 18:47:14,816 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-11 18:47:16,206 - INFO - Processed frame 96 in 1.42 seconds
+2025-06-11 18:47:16,206 - INFO - Processing frame 97/105
+2025-06-11 18:47:16,234 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-11 18:47:17,569 - INFO - Processed frame 97 in 1.36 seconds
+2025-06-11 18:47:17,569 - INFO - Processing frame 98/105
+2025-06-11 18:47:17,597 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-11 18:47:19,045 - INFO - Processed frame 98 in 1.48 seconds
+2025-06-11 18:47:19,045 - INFO - Processing frame 99/105
+2025-06-11 18:47:19,076 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-11 18:47:20,522 - INFO - Processed frame 99 in 1.48 seconds
+2025-06-11 18:47:20,522 - INFO - Processing frame 100/105
+2025-06-11 18:47:20,552 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-11 18:47:21,947 - INFO - Processed frame 100 in 1.42 seconds
+2025-06-11 18:47:21,947 - INFO - Processing frame 101/105
+2025-06-11 18:47:21,974 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-11 18:47:23,246 - INFO - Processed frame 101 in 1.30 seconds
+2025-06-11 18:47:23,246 - INFO - Processing frame 102/105
+2025-06-11 18:47:23,275 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-11 18:47:24,699 - INFO - Processed frame 102 in 1.45 seconds
+2025-06-11 18:47:24,699 - INFO - Processing frame 103/105
+2025-06-11 18:47:24,728 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-11 18:47:26,163 - INFO - Processed frame 103 in 1.46 seconds
+2025-06-11 18:47:26,163 - INFO - Processing frame 104/105
+2025-06-11 18:47:26,191 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-11 18:47:27,491 - INFO - Processed frame 104 in 1.33 seconds
+2025-06-11 18:47:27,491 - INFO - Processing frame 105/105
+2025-06-11 18:47:27,518 - INFO - Frame 105: 520985/997427 valid points
+2025-06-11 18:47:28,925 - INFO - Processed frame 105 in 1.43 seconds
+2025-06-11 18:47:28,925 - INFO - Processed 105/105 frames successfully
+2025-06-11 18:47:29,015 - INFO - Total processing time: 251.73 seconds
+2025-06-11 18:59:44,648 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 18:59:44,648 - INFO - Loading sensor data...
+2025-06-11 18:59:53,157 - INFO - Loaded 501 GNSS points
+2025-06-11 19:00:36,051 - INFO - Split LiDAR data into 105 frames
+2025-06-11 19:00:36,051 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 19:00:36,051 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 19:00:36,051 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 19:00:36,051 - INFO - Processing frame 1/105
+2025-06-11 19:00:36,082 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 19:00:37,538 - INFO - Processed frame 1 in 1.49 seconds
+2025-06-11 19:00:37,539 - INFO - Processing frame 2/105
+2025-06-11 19:00:37,565 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 19:00:39,043 - INFO - Processed frame 2 in 1.50 seconds
+2025-06-11 19:00:39,043 - INFO - Processing frame 3/105
+2025-06-11 19:00:39,074 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 19:00:40,062 - INFO - Processed frame 3 in 1.02 seconds
+2025-06-11 19:00:40,062 - INFO - Processing frame 4/105
+2025-06-11 19:00:40,090 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 19:00:41,577 - INFO - Processed frame 4 in 1.51 seconds
+2025-06-11 19:00:41,578 - INFO - Processing frame 5/105
+2025-06-11 19:00:41,605 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 19:00:43,090 - INFO - Processed frame 5 in 1.51 seconds
+2025-06-11 19:00:43,091 - INFO - Processing frame 6/105
+2025-06-11 19:00:43,119 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 19:00:44,118 - INFO - Processed frame 6 in 1.03 seconds
+2025-06-11 19:00:44,119 - INFO - Processing frame 7/105
+2025-06-11 19:00:44,145 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 19:00:45,631 - INFO - Processed frame 7 in 1.51 seconds
+2025-06-11 19:00:45,631 - INFO - Processing frame 8/105
+2025-06-11 19:00:45,658 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 19:00:47,155 - INFO - Processed frame 8 in 1.52 seconds
+2025-06-11 19:00:47,156 - INFO - Processing frame 9/105
+2025-06-11 19:00:47,186 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 19:00:48,756 - INFO - Processed frame 9 in 1.60 seconds
+2025-06-11 19:00:48,757 - INFO - Processing frame 10/105
+2025-06-11 19:00:48,791 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 19:00:50,089 - INFO - Processed frame 10 in 1.33 seconds
+2025-06-11 19:00:50,089 - INFO - Processing frame 11/105
+2025-06-11 19:00:50,124 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 19:00:52,299 - INFO - Processed frame 11 in 2.21 seconds
+2025-06-11 19:00:52,300 - INFO - Processing frame 12/105
+2025-06-11 19:00:52,332 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 19:00:54,170 - INFO - Processed frame 12 in 1.87 seconds
+2025-06-11 19:00:54,171 - INFO - Processing frame 13/105
+2025-06-11 19:00:54,202 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 19:00:56,577 - INFO - Processed frame 13 in 2.41 seconds
+2025-06-11 19:00:56,578 - INFO - Processing frame 14/105
+2025-06-11 19:00:56,608 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 19:00:59,060 - INFO - Processed frame 14 in 2.48 seconds
+2025-06-11 19:00:59,060 - INFO - Processing frame 15/105
+2025-06-11 19:00:59,089 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 19:01:01,041 - INFO - Processed frame 15 in 1.98 seconds
+2025-06-11 19:01:01,041 - INFO - Processing frame 16/105
+2025-06-11 19:01:01,071 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 19:01:03,555 - INFO - Processed frame 16 in 2.51 seconds
+2025-06-11 19:01:03,555 - INFO - Processing frame 17/105
+2025-06-11 19:01:03,582 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 19:01:05,516 - INFO - Processed frame 17 in 1.96 seconds
+2025-06-11 19:01:05,516 - INFO - Processing frame 18/105
+2025-06-11 19:01:05,545 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-11 19:01:07,932 - INFO - Processed frame 18 in 2.42 seconds
+2025-06-11 19:01:07,932 - INFO - Processing frame 19/105
+2025-06-11 19:01:07,959 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-11 19:01:09,759 - INFO - Processed frame 19 in 1.83 seconds
+2025-06-11 19:01:09,759 - INFO - Processing frame 20/105
+2025-06-11 19:01:09,785 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-11 19:01:11,973 - INFO - Processed frame 20 in 2.21 seconds
+2025-06-11 19:01:11,973 - INFO - Processing frame 21/105
+2025-06-11 19:01:11,999 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-11 19:01:14,073 - INFO - Processed frame 21 in 2.10 seconds
+2025-06-11 19:01:14,073 - INFO - Processing frame 22/105
+2025-06-11 19:01:14,102 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-11 19:01:16,283 - INFO - Processed frame 22 in 2.21 seconds
+2025-06-11 19:01:16,283 - INFO - Processing frame 23/105
+2025-06-11 19:01:16,313 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-11 19:01:18,493 - INFO - Processed frame 23 in 2.21 seconds
+2025-06-11 19:01:18,493 - INFO - Processing frame 24/105
+2025-06-11 19:01:18,520 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-11 19:01:20,521 - INFO - Processed frame 24 in 2.03 seconds
+2025-06-11 19:01:20,522 - INFO - Processing frame 25/105
+2025-06-11 19:01:20,549 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-11 19:01:22,702 - INFO - Processed frame 25 in 2.18 seconds
+2025-06-11 19:01:22,703 - INFO - Processing frame 26/105
+2025-06-11 19:01:22,728 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-11 19:01:24,801 - INFO - Processed frame 26 in 2.10 seconds
+2025-06-11 19:01:24,802 - INFO - Processing frame 27/105
+2025-06-11 19:01:24,829 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-11 19:01:27,000 - INFO - Processed frame 27 in 2.20 seconds
+2025-06-11 19:01:27,001 - INFO - Processing frame 28/105
+2025-06-11 19:01:27,027 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-11 19:01:29,042 - INFO - Processed frame 28 in 2.04 seconds
+2025-06-11 19:01:29,042 - INFO - Processing frame 29/105
+2025-06-11 19:01:29,068 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-11 19:01:31,181 - INFO - Processed frame 29 in 2.14 seconds
+2025-06-11 19:01:31,182 - INFO - Processing frame 30/105
+2025-06-11 19:01:31,208 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-11 19:01:33,394 - INFO - Processed frame 30 in 2.21 seconds
+2025-06-11 19:01:33,395 - INFO - Processing frame 31/105
+2025-06-11 19:01:33,422 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-11 19:01:35,561 - INFO - Processed frame 31 in 2.17 seconds
+2025-06-11 19:01:35,562 - INFO - Processing frame 32/105
+2025-06-11 19:01:35,590 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-11 19:01:37,894 - INFO - Processed frame 32 in 2.33 seconds
+2025-06-11 19:01:37,895 - INFO - Processing frame 33/105
+2025-06-11 19:01:37,926 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-11 19:01:39,619 - INFO - Processed frame 33 in 1.72 seconds
+2025-06-11 19:01:39,619 - INFO - Processing frame 34/105
+2025-06-11 19:01:39,645 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-11 19:01:41,744 - INFO - Processed frame 34 in 2.12 seconds
+2025-06-11 19:01:41,745 - INFO - Processing frame 35/105
+2025-06-11 19:01:41,774 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-11 19:02:17,707 - INFO - Processed frame 35 in 35.96 seconds
+2025-06-11 19:02:17,708 - INFO - Processing frame 36/105
+2025-06-11 19:02:17,734 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-11 19:01:45,768 - INFO - Processed frame 36 in -31.94 seconds
+2025-06-11 19:01:45,769 - INFO - Processing frame 37/105
+2025-06-11 19:01:45,798 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-11 19:01:47,798 - INFO - Processed frame 37 in 2.03 seconds
+2025-06-11 19:01:47,799 - INFO - Processing frame 38/105
+2025-06-11 19:01:47,828 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-11 19:01:49,719 - INFO - Processed frame 38 in 1.92 seconds
+2025-06-11 19:01:49,719 - INFO - Processing frame 39/105
+2025-06-11 19:01:49,745 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-11 19:01:51,780 - INFO - Processed frame 39 in 2.06 seconds
+2025-06-11 19:01:51,780 - INFO - Processing frame 40/105
+2025-06-11 19:01:51,810 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-11 19:01:53,841 - INFO - Processed frame 40 in 2.06 seconds
+2025-06-11 19:01:53,841 - INFO - Processing frame 41/105
+2025-06-11 19:01:53,871 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-11 19:01:55,781 - INFO - Processed frame 41 in 1.94 seconds
+2025-06-11 19:01:55,782 - INFO - Processing frame 42/105
+2025-06-11 19:01:55,811 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-11 19:01:57,829 - INFO - Processed frame 42 in 2.05 seconds
+2025-06-11 19:01:57,830 - INFO - Processing frame 43/105
+2025-06-11 19:01:57,858 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-11 19:01:59,772 - INFO - Processed frame 43 in 1.94 seconds
+2025-06-11 19:01:59,773 - INFO - Processing frame 44/105
+2025-06-11 19:01:59,802 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-11 19:02:01,807 - INFO - Processed frame 44 in 2.03 seconds
+2025-06-11 19:02:01,807 - INFO - Processing frame 45/105
+2025-06-11 19:02:01,836 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-11 19:02:03,807 - INFO - Processed frame 45 in 2.00 seconds
+2025-06-11 19:02:03,808 - INFO - Processing frame 46/105
+2025-06-11 19:02:03,835 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-11 19:02:05,746 - INFO - Processed frame 46 in 1.94 seconds
+2025-06-11 19:02:05,747 - INFO - Processing frame 47/105
+2025-06-11 19:02:05,775 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-11 19:02:07,791 - INFO - Processed frame 47 in 2.04 seconds
+2025-06-11 19:02:07,791 - INFO - Processing frame 48/105
+2025-06-11 19:02:07,818 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-11 19:02:09,770 - INFO - Processed frame 48 in 1.98 seconds
+2025-06-11 19:02:09,771 - INFO - Processing frame 49/105
+2025-06-11 19:02:09,801 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-11 19:02:11,840 - INFO - Processed frame 49 in 2.07 seconds
+2025-06-11 19:02:11,841 - INFO - Processing frame 50/105
+2025-06-11 19:02:11,869 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-11 19:02:13,918 - INFO - Processed frame 50 in 2.08 seconds
+2025-06-11 19:02:13,919 - INFO - Processing frame 51/105
+2025-06-11 19:02:47,775 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-11 19:02:15,881 - INFO - Processed frame 51 in 1.96 seconds
+2025-06-11 19:02:15,882 - INFO - Processing frame 52/105
+2025-06-11 19:02:15,908 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-11 19:02:18,134 - INFO - Processed frame 52 in 2.25 seconds
+2025-06-11 19:02:18,135 - INFO - Processing frame 53/105
+2025-06-11 19:02:18,165 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-11 19:02:20,273 - INFO - Processed frame 53 in 2.14 seconds
+2025-06-11 19:02:20,274 - INFO - Processing frame 54/105
+2025-06-11 19:02:20,308 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-11 19:02:22,415 - INFO - Processed frame 54 in 2.14 seconds
+2025-06-11 19:02:22,416 - INFO - Processing frame 55/105
+2025-06-11 19:02:22,446 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-11 19:02:24,389 - INFO - Processed frame 55 in 1.97 seconds
+2025-06-11 19:02:24,389 - INFO - Processing frame 56/105
+2025-06-11 19:02:24,419 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-11 19:02:26,430 - INFO - Processed frame 56 in 2.04 seconds
+2025-06-11 19:02:26,430 - INFO - Processing frame 57/105
+2025-06-11 19:02:26,460 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-11 19:02:28,485 - INFO - Processed frame 57 in 2.05 seconds
+2025-06-11 19:02:28,486 - INFO - Processing frame 58/105
+2025-06-11 19:02:28,517 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-11 19:02:30,519 - INFO - Processed frame 58 in 2.03 seconds
+2025-06-11 19:02:30,519 - INFO - Processing frame 59/105
+2025-06-11 19:02:30,549 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-11 19:02:32,764 - INFO - Processed frame 59 in 2.24 seconds
+2025-06-11 19:02:32,765 - INFO - Processing frame 60/105
+2025-06-11 19:02:32,797 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-11 19:02:34,710 - INFO - Processed frame 60 in 1.95 seconds
+2025-06-11 19:02:34,711 - INFO - Processing frame 61/105
+2025-06-11 19:02:34,742 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-11 19:02:37,026 - INFO - Processed frame 61 in 2.32 seconds
+2025-06-11 19:02:37,027 - INFO - Processing frame 62/105
+2025-06-11 19:02:37,059 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-11 19:02:39,285 - INFO - Processed frame 62 in 2.26 seconds
+2025-06-11 19:02:39,286 - INFO - Processing frame 63/105
+2025-06-11 19:02:39,318 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-11 19:02:40,978 - INFO - Processed frame 63 in 1.69 seconds
+2025-06-11 19:02:40,978 - INFO - Processing frame 64/105
+2025-06-11 19:02:41,011 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-11 19:02:43,152 - INFO - Processed frame 64 in 2.17 seconds
+2025-06-11 19:02:43,153 - INFO - Processing frame 65/105
+2025-06-11 19:02:43,185 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-11 19:02:44,807 - INFO - Processed frame 65 in 1.65 seconds
+2025-06-11 19:02:44,808 - INFO - Processing frame 66/105
+2025-06-11 19:02:44,842 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-11 19:02:47,004 - INFO - Processed frame 66 in 2.20 seconds
+2025-06-11 19:02:47,005 - INFO - Processing frame 67/105
+2025-06-11 19:02:47,038 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-11 19:02:49,219 - INFO - Processed frame 67 in 2.21 seconds
+2025-06-11 19:02:49,220 - INFO - Processing frame 68/105
+2025-06-11 19:02:49,252 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-11 19:02:50,955 - INFO - Processed frame 68 in 1.73 seconds
+2025-06-11 19:02:50,955 - INFO - Processing frame 69/105
+2025-06-11 19:02:50,987 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-11 19:02:53,257 - INFO - Processed frame 69 in 2.30 seconds
+2025-06-11 19:02:53,257 - INFO - Processing frame 70/105
+2025-06-11 19:02:53,290 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-11 19:02:55,117 - INFO - Processed frame 70 in 1.86 seconds
+2025-06-11 19:02:55,118 - INFO - Processing frame 71/105
+2025-06-11 19:02:55,151 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-11 19:02:57,489 - INFO - Processed frame 71 in 2.37 seconds
+2025-06-11 19:02:57,489 - INFO - Processing frame 72/105
+2025-06-11 19:02:57,526 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-11 19:02:59,321 - INFO - Processed frame 72 in 1.83 seconds
+2025-06-11 19:02:59,321 - INFO - Processing frame 73/105
+2025-06-11 19:02:59,362 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-11 19:03:01,666 - INFO - Processed frame 73 in 2.34 seconds
+2025-06-11 19:03:01,667 - INFO - Processing frame 74/105
+2025-06-11 19:03:01,707 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-11 19:03:03,996 - INFO - Processed frame 74 in 2.33 seconds
+2025-06-11 19:03:03,996 - INFO - Processing frame 75/105
+2025-06-11 19:03:04,027 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-11 19:03:05,739 - INFO - Processed frame 75 in 1.74 seconds
+2025-06-11 19:03:05,740 - INFO - Processing frame 76/105
+2025-06-11 19:03:05,772 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-11 19:03:08,045 - INFO - Processed frame 76 in 2.30 seconds
+2025-06-11 19:03:08,045 - INFO - Processing frame 77/105
+2025-06-11 19:03:08,081 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-11 19:03:09,873 - INFO - Processed frame 77 in 1.83 seconds
+2025-06-11 19:03:09,873 - INFO - Processing frame 78/105
+2025-06-11 19:03:09,906 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-11 19:03:12,108 - INFO - Processed frame 78 in 2.23 seconds
+2025-06-11 19:03:12,109 - INFO - Processing frame 79/105
+2025-06-11 19:03:12,141 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-11 19:03:14,343 - INFO - Processed frame 79 in 2.23 seconds
+2025-06-11 19:03:14,344 - INFO - Processing frame 80/105
+2025-06-11 19:03:14,375 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-11 19:03:16,085 - INFO - Processed frame 80 in 1.74 seconds
+2025-06-11 19:03:16,086 - INFO - Processing frame 81/105
+2025-06-11 19:03:16,116 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-11 19:03:18,378 - INFO - Processed frame 81 in 2.29 seconds
+2025-06-11 19:03:18,379 - INFO - Processing frame 82/105
+2025-06-11 19:03:18,416 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-11 19:03:20,131 - INFO - Processed frame 82 in 1.75 seconds
+2025-06-11 19:03:20,132 - INFO - Processing frame 83/105
+2025-06-11 19:03:20,166 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-11 19:03:22,248 - INFO - Processed frame 83 in 2.12 seconds
+2025-06-11 19:03:22,249 - INFO - Processing frame 84/105
+2025-06-11 19:03:22,280 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-11 19:03:24,192 - INFO - Processed frame 84 in 1.94 seconds
+2025-06-11 19:03:24,193 - INFO - Processing frame 85/105
+2025-06-11 19:03:24,221 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-11 19:03:26,261 - INFO - Processed frame 85 in 2.07 seconds
+2025-06-11 19:03:26,262 - INFO - Processing frame 86/105
+2025-06-11 19:03:26,291 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-11 19:03:28,366 - INFO - Processed frame 86 in 2.10 seconds
+2025-06-11 19:03:28,366 - INFO - Processing frame 87/105
+2025-06-11 19:03:28,396 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-11 19:03:30,264 - INFO - Processed frame 87 in 1.90 seconds
+2025-06-11 19:03:30,265 - INFO - Processing frame 88/105
+2025-06-11 19:03:30,296 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-11 19:03:32,329 - INFO - Processed frame 88 in 2.06 seconds
+2025-06-11 19:03:32,330 - INFO - Processing frame 89/105
+2025-06-11 19:03:32,366 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-11 19:03:34,543 - INFO - Processed frame 89 in 2.21 seconds
+2025-06-11 19:03:34,543 - INFO - Processing frame 90/105
+2025-06-11 19:03:34,574 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-11 19:03:36,466 - INFO - Processed frame 90 in 1.92 seconds
+2025-06-11 19:03:36,466 - INFO - Processing frame 91/105
+2025-06-11 19:03:36,497 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-11 19:03:38,295 - INFO - Processed frame 91 in 1.83 seconds
+2025-06-11 19:03:38,295 - INFO - Processing frame 92/105
+2025-06-11 19:03:38,327 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-11 19:03:39,699 - INFO - Processed frame 92 in 1.40 seconds
+2025-06-11 19:03:39,699 - INFO - Processing frame 93/105
+2025-06-11 19:03:39,731 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-11 19:03:41,319 - INFO - Processed frame 93 in 1.62 seconds
+2025-06-11 19:03:41,319 - INFO - Processing frame 94/105
+2025-06-11 19:03:41,350 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-11 19:03:42,908 - INFO - Processed frame 94 in 1.59 seconds
+2025-06-11 19:03:42,909 - INFO - Processing frame 95/105
+2025-06-11 19:03:42,938 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-11 19:04:17,920 - INFO - Processed frame 95 in 35.01 seconds
+2025-06-11 19:04:17,920 - INFO - Processing frame 96/105
+2025-06-11 19:04:17,951 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-11 19:03:45,622 - INFO - Processed frame 96 in -32.30 seconds
+2025-06-11 19:03:45,622 - INFO - Processing frame 97/105
+2025-06-11 19:03:45,652 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-11 19:03:47,185 - INFO - Processed frame 97 in 1.56 seconds
+2025-06-11 19:03:47,185 - INFO - Processing frame 98/105
+2025-06-11 19:03:47,215 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-11 19:03:48,785 - INFO - Processed frame 98 in 1.60 seconds
+2025-06-11 19:03:48,785 - INFO - Processing frame 99/105
+2025-06-11 19:03:48,815 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-11 19:03:49,936 - INFO - Processed frame 99 in 1.15 seconds
+2025-06-11 19:03:49,936 - INFO - Processing frame 100/105
+2025-06-11 19:03:49,967 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-11 19:03:51,532 - INFO - Processed frame 100 in 1.60 seconds
+2025-06-11 19:03:51,532 - INFO - Processing frame 101/105
+2025-06-11 19:03:51,564 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-11 19:03:53,140 - INFO - Processed frame 101 in 1.61 seconds
+2025-06-11 19:03:53,140 - INFO - Processing frame 102/105
+2025-06-11 19:03:53,172 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-11 19:03:54,284 - INFO - Processed frame 102 in 1.14 seconds
+2025-06-11 19:03:54,285 - INFO - Processing frame 103/105
+2025-06-11 19:03:54,319 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-11 19:03:55,930 - INFO - Processed frame 103 in 1.65 seconds
+2025-06-11 19:03:55,930 - INFO - Processing frame 104/105
+2025-06-11 19:03:55,964 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-11 19:03:57,558 - INFO - Processed frame 104 in 1.63 seconds
+2025-06-11 19:03:57,558 - INFO - Processing frame 105/105
+2025-06-11 19:03:57,588 - INFO - Frame 105: 520985/997427 valid points
+2025-06-11 19:03:59,163 - INFO - Processed frame 105 in 1.61 seconds
+2025-06-11 19:03:59,163 - INFO - Processed 105/105 frames successfully
+2025-06-11 19:03:59,214 - INFO - Total processing time: 254.57 seconds
+2025-06-11 19:53:42,929 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-11 19:53:42,929 - INFO - Loading sensor data...
+2025-06-11 19:53:51,008 - INFO - Loaded 501 GNSS points
+2025-06-11 19:54:35,700 - INFO - Split LiDAR data into 105 frames
+2025-06-11 19:54:35,703 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-11 19:54:35,703 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-11 19:54:35,703 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-11 19:54:35,703 - INFO - Processing frame 1/105
+2025-06-11 19:54:35,736 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-11 19:54:37,192 - INFO - Processed frame 1 in 1.49 seconds
+2025-06-11 19:54:37,193 - INFO - Processing frame 2/105
+2025-06-11 19:54:37,224 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-11 19:54:38,690 - INFO - Processed frame 2 in 1.50 seconds
+2025-06-11 19:54:38,691 - INFO - Processing frame 3/105
+2025-06-11 19:54:38,719 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-11 19:54:39,715 - INFO - Processed frame 3 in 1.02 seconds
+2025-06-11 19:54:39,716 - INFO - Processing frame 4/105
+2025-06-11 19:54:39,745 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-11 19:54:41,243 - INFO - Processed frame 4 in 1.53 seconds
+2025-06-11 19:54:41,244 - INFO - Processing frame 5/105
+2025-06-11 19:54:41,271 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-11 19:54:42,737 - INFO - Processed frame 5 in 1.49 seconds
+2025-06-11 19:54:42,738 - INFO - Processing frame 6/105
+2025-06-11 19:54:42,765 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-11 19:54:44,271 - INFO - Processed frame 6 in 1.53 seconds
+2025-06-11 19:54:44,272 - INFO - Processing frame 7/105
+2025-06-11 19:54:44,299 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-11 19:54:45,230 - INFO - Processed frame 7 in 0.96 seconds
+2025-06-11 19:54:45,231 - INFO - Processing frame 8/105
+2025-06-11 19:54:45,257 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-11 19:54:46,665 - INFO - Processed frame 8 in 1.43 seconds
+2025-06-11 19:54:46,666 - INFO - Processing frame 9/105
+2025-06-11 19:54:46,713 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-11 19:54:48,204 - INFO - Processed frame 9 in 1.54 seconds
+2025-06-11 19:54:48,204 - INFO - Processing frame 10/105
+2025-06-11 19:54:48,232 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-11 19:54:49,796 - INFO - Processed frame 10 in 1.59 seconds
+2025-06-11 19:54:49,796 - INFO - Processing frame 11/105
+2025-06-11 19:54:49,824 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-11 19:54:51,772 - INFO - Processed frame 11 in 1.98 seconds
+2025-06-11 19:54:51,773 - INFO - Processing frame 12/105
+2025-06-11 19:54:51,804 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-11 19:54:53,962 - INFO - Processed frame 12 in 2.19 seconds
+2025-06-11 19:54:53,963 - INFO - Processing frame 13/105
+2025-06-11 19:54:53,992 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-11 19:54:56,107 - INFO - Processed frame 13 in 2.14 seconds
+2025-06-11 19:54:56,107 - INFO - Processing frame 14/105
+2025-06-11 19:54:56,139 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-11 19:54:58,420 - INFO - Processed frame 14 in 2.31 seconds
+2025-06-11 19:54:58,420 - INFO - Processing frame 15/105
+2025-06-11 19:54:58,450 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-11 19:55:00,624 - INFO - Processed frame 15 in 2.20 seconds
+2025-06-11 19:55:00,625 - INFO - Processing frame 16/105
+2025-06-11 19:55:00,654 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-11 19:55:02,952 - INFO - Processed frame 16 in 2.33 seconds
+2025-06-11 19:55:02,952 - INFO - Processing frame 17/105
+2025-06-11 19:55:02,979 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-11 19:55:05,074 - INFO - Processed frame 17 in 2.12 seconds
+2025-06-11 19:55:05,074 - INFO - Processing frame 18/105
+2025-06-11 19:55:05,102 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-11 19:55:07,281 - INFO - Processed frame 18 in 2.21 seconds
+2025-06-11 19:55:07,281 - INFO - Processing frame 19/105
+2025-06-11 19:55:07,309 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-11 19:55:09,473 - INFO - Processed frame 19 in 2.19 seconds
+2025-06-11 19:55:09,473 - INFO - Processing frame 20/105
+2025-06-11 19:55:09,501 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-11 19:55:11,585 - INFO - Processed frame 20 in 2.11 seconds
+2025-06-11 19:55:11,585 - INFO - Processing frame 21/105
+2025-06-11 19:55:11,612 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-11 19:55:13,783 - INFO - Processed frame 21 in 2.20 seconds
+2025-06-11 19:55:13,783 - INFO - Processing frame 22/105
+2025-06-11 19:55:13,812 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-11 19:55:15,829 - INFO - Processed frame 22 in 2.05 seconds
+2025-06-11 19:55:15,829 - INFO - Processing frame 23/105
+2025-06-11 19:55:15,860 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-11 19:55:18,005 - INFO - Processed frame 23 in 2.18 seconds
+2025-06-11 19:55:18,005 - INFO - Processing frame 24/105
+2025-06-11 19:55:18,032 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-11 19:55:20,018 - INFO - Processed frame 24 in 2.01 seconds
+2025-06-11 19:55:20,018 - INFO - Processing frame 25/105
+2025-06-11 19:55:20,047 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-11 19:55:22,157 - INFO - Processed frame 25 in 2.14 seconds
+2025-06-11 19:55:22,157 - INFO - Processing frame 26/105
+2025-06-11 19:55:22,185 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-11 19:55:24,336 - INFO - Processed frame 26 in 2.18 seconds
+2025-06-11 19:55:24,337 - INFO - Processing frame 27/105
+2025-06-11 19:55:24,364 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-11 19:55:26,405 - INFO - Processed frame 27 in 2.07 seconds
+2025-06-11 19:55:26,405 - INFO - Processing frame 28/105
+2025-06-11 19:55:26,435 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-11 19:55:28,660 - INFO - Processed frame 28 in 2.25 seconds
+2025-06-11 19:55:28,660 - INFO - Processing frame 29/105
+2025-06-11 19:55:28,687 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-11 19:55:30,403 - INFO - Processed frame 29 in 1.74 seconds
+2025-06-11 19:55:30,404 - INFO - Processing frame 30/105
+2025-06-11 19:55:30,436 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-11 19:55:32,697 - INFO - Processed frame 30 in 2.29 seconds
+2025-06-11 19:55:32,697 - INFO - Processing frame 31/105
+2025-06-11 19:55:32,730 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-11 19:55:34,957 - INFO - Processed frame 31 in 2.26 seconds
+2025-06-11 19:55:34,958 - INFO - Processing frame 32/105
+2025-06-11 19:56:08,359 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-11 19:55:36,590 - INFO - Processed frame 32 in 1.63 seconds
+2025-06-11 19:55:36,591 - INFO - Processing frame 33/105
+2025-06-11 19:55:36,619 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-11 19:55:38,701 - INFO - Processed frame 33 in 2.11 seconds
+2025-06-11 19:55:38,701 - INFO - Processing frame 34/105
+2025-06-11 19:55:38,732 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-11 19:55:40,715 - INFO - Processed frame 34 in 2.01 seconds
+2025-06-11 19:55:40,715 - INFO - Processing frame 35/105
+2025-06-11 19:55:40,743 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-11 19:55:42,852 - INFO - Processed frame 35 in 2.14 seconds
+2025-06-11 19:55:42,853 - INFO - Processing frame 36/105
+2025-06-11 19:55:42,881 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-11 19:55:44,810 - INFO - Processed frame 36 in 1.96 seconds
+2025-06-11 19:55:44,811 - INFO - Processing frame 37/105
+2025-06-11 19:55:44,837 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-11 19:55:46,895 - INFO - Processed frame 37 in 2.08 seconds
+2025-06-11 19:55:46,896 - INFO - Processing frame 38/105
+2025-06-11 19:55:46,922 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-11 19:55:48,999 - INFO - Processed frame 38 in 2.10 seconds
+2025-06-11 19:55:48,999 - INFO - Processing frame 39/105
+2025-06-11 19:55:49,029 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-11 19:55:51,015 - INFO - Processed frame 39 in 2.02 seconds
+2025-06-11 19:55:51,016 - INFO - Processing frame 40/105
+2025-06-11 19:55:51,046 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-11 19:55:53,175 - INFO - Processed frame 40 in 2.16 seconds
+2025-06-11 19:55:53,176 - INFO - Processing frame 41/105
+2025-06-11 19:55:53,205 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-11 19:55:55,211 - INFO - Processed frame 41 in 2.04 seconds
+2025-06-11 19:55:55,212 - INFO - Processing frame 42/105
+2025-06-11 19:55:55,240 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-11 19:55:57,335 - INFO - Processed frame 42 in 2.12 seconds
+2025-06-11 19:55:57,336 - INFO - Processing frame 43/105
+2025-06-11 19:55:57,363 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-11 19:55:59,461 - INFO - Processed frame 43 in 2.13 seconds
+2025-06-11 19:55:59,462 - INFO - Processing frame 44/105
+2025-06-11 19:55:59,491 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-11 19:56:01,466 - INFO - Processed frame 44 in 2.00 seconds
+2025-06-11 19:56:01,467 - INFO - Processing frame 45/105
+2025-06-11 19:56:01,493 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-11 19:56:03,737 - INFO - Processed frame 45 in 2.27 seconds
+2025-06-11 19:56:03,737 - INFO - Processing frame 46/105
+2025-06-11 19:56:03,773 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-11 19:56:05,829 - INFO - Processed frame 46 in 2.09 seconds
+2025-06-11 19:56:05,830 - INFO - Processing frame 47/105
+2025-06-11 19:56:05,863 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-11 19:56:08,135 - INFO - Processed frame 47 in 2.31 seconds
+2025-06-11 19:56:08,135 - INFO - Processing frame 48/105
+2025-06-11 19:56:08,167 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-11 19:56:09,974 - INFO - Processed frame 48 in 1.84 seconds
+2025-06-11 19:56:09,975 - INFO - Processing frame 49/105
+2025-06-11 19:56:10,011 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-11 19:56:12,344 - INFO - Processed frame 49 in 2.37 seconds
+2025-06-11 19:56:12,345 - INFO - Processing frame 50/105
+2025-06-11 19:56:12,376 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-11 19:56:14,786 - INFO - Processed frame 50 in 2.44 seconds
+2025-06-11 19:56:14,787 - INFO - Processing frame 51/105
+2025-06-11 19:56:14,820 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-11 19:56:16,724 - INFO - Processed frame 51 in 1.94 seconds
+2025-06-11 19:56:16,725 - INFO - Processing frame 52/105
+2025-06-11 19:56:16,756 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-11 19:56:19,096 - INFO - Processed frame 52 in 2.37 seconds
+2025-06-11 19:56:19,097 - INFO - Processing frame 53/105
+2025-06-11 19:56:19,130 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-11 19:56:21,006 - INFO - Processed frame 53 in 1.91 seconds
+2025-06-11 19:56:21,006 - INFO - Processing frame 54/105
+2025-06-11 19:56:21,038 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-11 19:56:23,422 - INFO - Processed frame 54 in 2.42 seconds
+2025-06-11 19:56:23,423 - INFO - Processing frame 55/105
+2025-06-11 19:56:23,455 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-11 19:56:25,278 - INFO - Processed frame 55 in 1.85 seconds
+2025-06-11 19:56:25,279 - INFO - Processing frame 56/105
+2025-06-11 19:56:25,311 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-11 19:56:27,579 - INFO - Processed frame 56 in 2.30 seconds
+2025-06-11 19:56:27,580 - INFO - Processing frame 57/105
+2025-06-11 19:56:27,611 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-11 19:56:29,895 - INFO - Processed frame 57 in 2.31 seconds
+2025-06-11 19:56:29,896 - INFO - Processing frame 58/105
+2025-06-11 19:56:29,929 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-11 19:56:31,665 - INFO - Processed frame 58 in 1.77 seconds
+2025-06-11 19:56:31,666 - INFO - Processing frame 59/105
+2025-06-11 19:56:31,697 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-11 19:56:33,916 - INFO - Processed frame 59 in 2.25 seconds
+2025-06-11 19:56:33,917 - INFO - Processing frame 60/105
+2025-06-11 19:56:33,948 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-11 19:56:36,006 - INFO - Processed frame 60 in 2.09 seconds
+2025-06-11 19:56:36,007 - INFO - Processing frame 61/105
+2025-06-11 19:56:36,036 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-11 19:56:38,107 - INFO - Processed frame 61 in 2.10 seconds
+2025-06-11 19:56:38,108 - INFO - Processing frame 62/105
+2025-06-11 19:56:38,137 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-11 19:56:40,058 - INFO - Processed frame 62 in 1.95 seconds
+2025-06-11 19:56:40,059 - INFO - Processing frame 63/105
+2025-06-11 19:56:40,091 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-11 19:56:42,141 - INFO - Processed frame 63 in 2.08 seconds
+2025-06-11 19:56:42,142 - INFO - Processing frame 64/105
+2025-06-11 19:56:42,172 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-11 19:56:44,166 - INFO - Processed frame 64 in 2.02 seconds
+2025-06-11 19:56:44,167 - INFO - Processing frame 65/105
+2025-06-11 19:56:44,199 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-11 19:56:46,071 - INFO - Processed frame 65 in 1.90 seconds
+2025-06-11 19:56:46,072 - INFO - Processing frame 66/105
+2025-06-11 19:56:46,104 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-11 19:56:48,112 - INFO - Processed frame 66 in 2.04 seconds
+2025-06-11 19:56:48,113 - INFO - Processing frame 67/105
+2025-06-11 19:56:48,142 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-11 19:56:50,088 - INFO - Processed frame 67 in 1.97 seconds
+2025-06-11 19:56:50,089 - INFO - Processing frame 68/105
+2025-06-11 19:56:50,120 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-11 19:56:52,181 - INFO - Processed frame 68 in 2.09 seconds
+2025-06-11 19:56:52,182 - INFO - Processing frame 69/105
+2025-06-11 19:56:52,211 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-11 19:56:54,343 - INFO - Processed frame 69 in 2.16 seconds
+2025-06-11 19:56:54,344 - INFO - Processing frame 70/105
+2025-06-11 19:56:54,373 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-11 19:56:56,405 - INFO - Processed frame 70 in 2.06 seconds
+2025-06-11 19:56:56,406 - INFO - Processing frame 71/105
+2025-06-11 19:56:56,439 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-11 19:56:58,642 - INFO - Processed frame 71 in 2.24 seconds
+2025-06-11 19:56:58,642 - INFO - Processing frame 72/105
+2025-06-11 19:56:58,672 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-11 19:57:00,732 - INFO - Processed frame 72 in 2.09 seconds
+2025-06-11 19:57:00,733 - INFO - Processing frame 73/105
+2025-06-11 19:57:00,763 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-11 19:57:02,951 - INFO - Processed frame 73 in 2.22 seconds
+2025-06-11 19:57:02,951 - INFO - Processing frame 74/105
+2025-06-11 19:57:02,980 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-11 19:57:05,082 - INFO - Processed frame 74 in 2.13 seconds
+2025-06-11 19:57:05,082 - INFO - Processing frame 75/105
+2025-06-11 19:57:05,112 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-11 19:57:07,251 - INFO - Processed frame 75 in 2.17 seconds
+2025-06-11 19:57:07,251 - INFO - Processing frame 76/105
+2025-06-11 19:57:07,282 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-11 19:57:09,381 - INFO - Processed frame 76 in 2.13 seconds
+2025-06-11 19:57:09,382 - INFO - Processing frame 77/105
+2025-06-11 19:57:09,413 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-11 19:57:11,477 - INFO - Processed frame 77 in 2.10 seconds
+2025-06-11 19:57:11,478 - INFO - Processing frame 78/105
+2025-06-11 19:57:11,510 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-11 19:57:13,745 - INFO - Processed frame 78 in 2.27 seconds
+2025-06-11 19:57:13,746 - INFO - Processing frame 79/105
+2025-06-11 19:57:13,778 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-11 19:57:15,766 - INFO - Processed frame 79 in 2.02 seconds
+2025-06-11 19:57:15,767 - INFO - Processing frame 80/105
+2025-06-11 19:57:15,795 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-11 19:57:17,919 - INFO - Processed frame 80 in 2.15 seconds
+2025-06-11 19:57:17,920 - INFO - Processing frame 81/105
+2025-06-11 19:57:17,950 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-11 19:57:20,033 - INFO - Processed frame 81 in 2.11 seconds
+2025-06-11 19:57:20,034 - INFO - Processing frame 82/105
+2025-06-11 19:57:20,064 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-11 19:57:22,310 - INFO - Processed frame 82 in 2.28 seconds
+2025-06-11 19:57:22,310 - INFO - Processing frame 83/105
+2025-06-11 19:57:22,343 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-11 19:57:24,504 - INFO - Processed frame 83 in 2.19 seconds
+2025-06-11 19:57:24,505 - INFO - Processing frame 84/105
+2025-06-11 19:57:24,538 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-11 19:57:26,568 - INFO - Processed frame 84 in 2.06 seconds
+2025-06-11 19:57:26,568 - INFO - Processing frame 85/105
+2025-06-11 19:57:26,599 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-11 19:57:28,799 - INFO - Processed frame 85 in 2.23 seconds
+2025-06-11 19:57:28,800 - INFO - Processing frame 86/105
+2025-06-11 19:57:28,832 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-11 19:57:30,555 - INFO - Processed frame 86 in 1.76 seconds
+2025-06-11 19:57:30,555 - INFO - Processing frame 87/105
+2025-06-11 19:57:30,591 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-11 19:57:32,776 - INFO - Processed frame 87 in 2.22 seconds
+2025-06-11 19:57:32,777 - INFO - Processing frame 88/105
+2025-06-11 19:57:32,808 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-11 19:57:34,891 - INFO - Processed frame 88 in 2.11 seconds
+2025-06-11 19:57:34,891 - INFO - Processing frame 89/105
+2025-06-11 19:57:34,925 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-11 19:57:36,432 - INFO - Processed frame 89 in 1.54 seconds
+2025-06-11 19:57:36,432 - INFO - Processing frame 90/105
+2025-06-11 19:57:36,463 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-11 19:57:38,427 - INFO - Processed frame 90 in 1.99 seconds
+2025-06-11 19:57:38,428 - INFO - Processing frame 91/105
+2025-06-11 19:57:38,461 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-11 19:57:39,703 - INFO - Processed frame 91 in 1.28 seconds
+2025-06-11 19:57:39,703 - INFO - Processing frame 92/105
+2025-06-11 19:57:39,733 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-11 19:57:41,216 - INFO - Processed frame 92 in 1.51 seconds
+2025-06-11 19:57:41,216 - INFO - Processing frame 93/105
+2025-06-11 19:57:41,246 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-11 19:57:42,665 - INFO - Processed frame 93 in 1.45 seconds
+2025-06-11 19:57:42,665 - INFO - Processing frame 94/105
+2025-06-11 19:57:42,692 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-11 19:57:44,105 - INFO - Processed frame 94 in 1.44 seconds
+2025-06-11 19:57:44,105 - INFO - Processing frame 95/105
+2025-06-11 19:57:44,131 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-11 19:57:45,405 - INFO - Processed frame 95 in 1.30 seconds
+2025-06-11 19:57:45,405 - INFO - Processing frame 96/105
+2025-06-11 19:57:45,435 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-11 19:57:46,823 - INFO - Processed frame 96 in 1.42 seconds
+2025-06-11 19:57:46,823 - INFO - Processing frame 97/105
+2025-06-11 19:57:46,850 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-11 19:57:48,291 - INFO - Processed frame 97 in 1.47 seconds
+2025-06-11 19:57:48,291 - INFO - Processing frame 98/105
+2025-06-11 19:57:48,321 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-11 19:57:49,765 - INFO - Processed frame 98 in 1.47 seconds
+2025-06-11 19:57:49,765 - INFO - Processing frame 99/105
+2025-06-11 19:58:23,541 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-11 19:57:51,148 - INFO - Processed frame 99 in 1.38 seconds
+2025-06-11 19:57:51,148 - INFO - Processing frame 100/105
+2025-06-11 19:57:51,177 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-11 19:57:52,627 - INFO - Processed frame 100 in 1.48 seconds
+2025-06-11 19:57:52,627 - INFO - Processing frame 101/105
+2025-06-11 19:57:52,656 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-11 19:57:54,110 - INFO - Processed frame 101 in 1.48 seconds
+2025-06-11 19:57:54,110 - INFO - Processing frame 102/105
+2025-06-11 19:57:54,140 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-11 19:57:55,477 - INFO - Processed frame 102 in 1.37 seconds
+2025-06-11 19:57:55,477 - INFO - Processing frame 103/105
+2025-06-11 19:57:55,506 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-11 19:57:56,995 - INFO - Processed frame 103 in 1.52 seconds
+2025-06-11 19:57:56,995 - INFO - Processing frame 104/105
+2025-06-11 19:57:57,021 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-11 19:57:58,459 - INFO - Processed frame 104 in 1.46 seconds
+2025-06-11 19:57:58,459 - INFO - Processing frame 105/105
+2025-06-11 19:57:58,485 - INFO - Frame 105: 520985/997427 valid points
+2025-06-11 19:57:59,751 - INFO - Processed frame 105 in 1.29 seconds
+2025-06-11 19:57:59,751 - INFO - Processed 105/105 frames successfully
+2025-06-11 19:57:59,801 - INFO - Total processing time: 256.87 seconds
+2025-06-12 17:27:08,630 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-12 17:27:08,630 - INFO - Loading sensor data...
+2025-06-12 17:27:16,362 - INFO - Loaded 501 GNSS points
+2025-06-12 17:28:51,207 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-12 17:28:51,207 - INFO - Loading sensor data...
+2025-06-12 17:28:59,454 - INFO - Loaded 501 GNSS points
+2025-06-12 18:05:10,309 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-12 18:05:10,309 - INFO - Loading sensor data...
+2025-06-12 18:05:18,262 - INFO - Loaded 501 GNSS points
+2025-06-12 18:05:54,904 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-12 18:05:54,904 - INFO - Loading sensor data...
+2025-06-12 18:06:03,099 - INFO - Loaded 501 GNSS points
+2025-06-13 17:48:02,005 - INFO - Created directory: ../results/pointcloud/ouster/go
+2025-06-13 17:48:02,006 - INFO - Loading sensor data...
+2025-06-13 17:48:10,172 - INFO - Loaded 501 GNSS points
+2025-06-13 17:48:54,090 - INFO - Split LiDAR data into 105 frames
+2025-06-13 17:48:54,091 - INFO - IMU time range: 1731583938.2982736 to 1731584032.2912087
+2025-06-13 17:48:54,092 - INFO - LiDAR time range: 1731583941.509532 to 1731584032.057406
+2025-06-13 17:48:54,092 - INFO - GNSS time range: 1731583938.4770172 to 1731584032.1063018
+2025-06-13 17:48:54,092 - INFO - Processing frame 1/105
+2025-06-13 17:48:54,120 - INFO - Frame 1: 504021/1000000 valid points
+2025-06-13 17:48:55,447 - INFO - Processed frame 1 in 1.36 seconds
+2025-06-13 17:48:55,448 - INFO - Processing frame 2/105
+2025-06-13 17:48:55,472 - INFO - Frame 2: 509935/1000000 valid points
+2025-06-13 17:48:56,815 - INFO - Processed frame 2 in 1.37 seconds
+2025-06-13 17:48:56,816 - INFO - Processing frame 3/105
+2025-06-13 17:48:56,841 - INFO - Frame 3: 509387/1000000 valid points
+2025-06-13 17:48:58,190 - INFO - Processed frame 3 in 1.37 seconds
+2025-06-13 17:48:58,191 - INFO - Processing frame 4/105
+2025-06-13 17:48:58,215 - INFO - Frame 4: 506425/1000000 valid points
+2025-06-13 17:48:59,569 - INFO - Processed frame 4 in 1.38 seconds
+2025-06-13 17:48:59,570 - INFO - Processing frame 5/105
+2025-06-13 17:48:59,594 - INFO - Frame 5: 506790/1000000 valid points
+2025-06-13 17:49:00,922 - INFO - Processed frame 5 in 1.35 seconds
+2025-06-13 17:49:00,922 - INFO - Processing frame 6/105
+2025-06-13 17:49:00,946 - INFO - Frame 6: 511515/1000000 valid points
+2025-06-13 17:49:02,302 - INFO - Processed frame 6 in 1.38 seconds
+2025-06-13 17:49:02,303 - INFO - Processing frame 7/105
+2025-06-13 17:49:02,327 - INFO - Frame 7: 516564/1000000 valid points
+2025-06-13 17:49:03,731 - INFO - Processed frame 7 in 1.43 seconds
+2025-06-13 17:49:03,732 - INFO - Processing frame 8/105
+2025-06-13 17:49:03,759 - INFO - Frame 8: 516727/1000000 valid points
+2025-06-13 17:49:05,149 - INFO - Processed frame 8 in 1.42 seconds
+2025-06-13 17:49:05,149 - INFO - Processing frame 9/105
+2025-06-13 17:49:05,173 - INFO - Frame 9: 529935/1000000 valid points
+2025-06-13 17:49:06,602 - INFO - Processed frame 9 in 1.45 seconds
+2025-06-13 17:49:06,602 - INFO - Processing frame 10/105
+2025-06-13 17:49:06,632 - INFO - Frame 10: 597775/1000000 valid points
+2025-06-13 17:49:08,232 - INFO - Processed frame 10 in 1.63 seconds
+2025-06-13 17:49:08,232 - INFO - Processing frame 11/105
+2025-06-13 17:49:08,262 - INFO - Frame 11: 694046/1000000 valid points
+2025-06-13 17:49:10,102 - INFO - Processed frame 11 in 1.87 seconds
+2025-06-13 17:49:10,102 - INFO - Processing frame 12/105
+2025-06-13 17:49:10,129 - INFO - Frame 12: 773769/1000000 valid points
+2025-06-13 17:49:12,180 - INFO - Processed frame 12 in 2.08 seconds
+2025-06-13 17:49:12,180 - INFO - Processing frame 13/105
+2025-06-13 17:49:12,208 - INFO - Frame 13: 810633/1000000 valid points
+2025-06-13 17:49:14,369 - INFO - Processed frame 13 in 2.19 seconds
+2025-06-13 17:49:14,370 - INFO - Processing frame 14/105
+2025-06-13 17:49:14,394 - INFO - Frame 14: 831650/1000000 valid points
+2025-06-13 17:49:16,613 - INFO - Processed frame 14 in 2.24 seconds
+2025-06-13 17:49:16,614 - INFO - Processing frame 15/105
+2025-06-13 17:49:16,639 - INFO - Frame 15: 834905/1000000 valid points
+2025-06-13 17:49:18,890 - INFO - Processed frame 15 in 2.28 seconds
+2025-06-13 17:49:18,891 - INFO - Processing frame 16/105
+2025-06-13 17:49:18,919 - INFO - Frame 16: 831519/1000000 valid points
+2025-06-13 17:49:21,148 - INFO - Processed frame 16 in 2.26 seconds
+2025-06-13 17:49:21,148 - INFO - Processing frame 17/105
+2025-06-13 17:49:21,175 - INFO - Frame 17: 819174/1000000 valid points
+2025-06-13 17:49:23,374 - INFO - Processed frame 17 in 2.23 seconds
+2025-06-13 17:49:23,375 - INFO - Processing frame 18/105
+2025-06-13 17:49:23,403 - INFO - Frame 18: 812996/1000000 valid points
+2025-06-13 17:49:25,564 - INFO - Processed frame 18 in 2.19 seconds
+2025-06-13 17:49:25,565 - INFO - Processing frame 19/105
+2025-06-13 17:49:25,591 - INFO - Frame 19: 803755/1000000 valid points
+2025-06-13 17:50:01,385 - INFO - Processed frame 19 in 35.82 seconds
+2025-06-13 17:50:01,386 - INFO - Processing frame 20/105
+2025-06-13 17:50:01,413 - INFO - Frame 20: 803189/1000000 valid points
+2025-06-13 17:49:29,962 - INFO - Processed frame 20 in -31.42 seconds
+2025-06-13 17:49:29,962 - INFO - Processing frame 21/105
+2025-06-13 17:49:29,988 - INFO - Frame 21: 797879/1000000 valid points
+2025-06-13 17:49:32,126 - INFO - Processed frame 21 in 2.16 seconds
+2025-06-13 17:49:32,127 - INFO - Processing frame 22/105
+2025-06-13 17:49:32,152 - INFO - Frame 22: 795072/1000000 valid points
+2025-06-13 17:49:34,294 - INFO - Processed frame 22 in 2.17 seconds
+2025-06-13 17:49:34,294 - INFO - Processing frame 23/105
+2025-06-13 17:49:34,319 - INFO - Frame 23: 789838/1000000 valid points
+2025-06-13 17:49:36,424 - INFO - Processed frame 23 in 2.13 seconds
+2025-06-13 17:49:36,424 - INFO - Processing frame 24/105
+2025-06-13 17:49:36,451 - INFO - Frame 24: 788719/1000000 valid points
+2025-06-13 17:49:38,539 - INFO - Processed frame 24 in 2.11 seconds
+2025-06-13 17:49:38,539 - INFO - Processing frame 25/105
+2025-06-13 17:49:38,565 - INFO - Frame 25: 785086/1000000 valid points
+2025-06-13 17:49:40,644 - INFO - Processed frame 25 in 2.10 seconds
+2025-06-13 17:49:40,645 - INFO - Processing frame 26/105
+2025-06-13 17:49:40,669 - INFO - Frame 26: 777542/1000000 valid points
+2025-06-13 17:49:42,725 - INFO - Processed frame 26 in 2.08 seconds
+2025-06-13 17:49:42,726 - INFO - Processing frame 27/105
+2025-06-13 17:49:42,751 - INFO - Frame 27: 771969/1000000 valid points
+2025-06-13 17:49:44,788 - INFO - Processed frame 27 in 2.06 seconds
+2025-06-13 17:49:44,789 - INFO - Processing frame 28/105
+2025-06-13 17:49:44,814 - INFO - Frame 28: 762125/1000000 valid points
+2025-06-13 17:49:46,831 - INFO - Processed frame 28 in 2.04 seconds
+2025-06-13 17:49:46,831 - INFO - Processing frame 29/105
+2025-06-13 17:49:46,860 - INFO - Frame 29: 755728/1000000 valid points
+2025-06-13 17:49:48,881 - INFO - Processed frame 29 in 2.05 seconds
+2025-06-13 17:49:48,881 - INFO - Processing frame 30/105
+2025-06-13 17:49:48,908 - INFO - Frame 30: 756449/1000000 valid points
+2025-06-13 17:49:50,902 - INFO - Processed frame 30 in 2.02 seconds
+2025-06-13 17:49:50,903 - INFO - Processing frame 31/105
+2025-06-13 17:49:50,932 - INFO - Frame 31: 754583/1000000 valid points
+2025-06-13 17:49:52,928 - INFO - Processed frame 31 in 2.03 seconds
+2025-06-13 17:49:52,929 - INFO - Processing frame 32/105
+2025-06-13 17:49:52,954 - INFO - Frame 32: 760213/1000000 valid points
+2025-06-13 17:49:54,961 - INFO - Processed frame 32 in 2.03 seconds
+2025-06-13 17:49:54,961 - INFO - Processing frame 33/105
+2025-06-13 17:49:54,989 - INFO - Frame 33: 761094/1000000 valid points
+2025-06-13 17:49:56,998 - INFO - Processed frame 33 in 2.04 seconds
+2025-06-13 17:49:56,998 - INFO - Processing frame 34/105
+2025-06-13 17:49:57,024 - INFO - Frame 34: 770458/1000000 valid points
+2025-06-13 17:49:59,045 - INFO - Processed frame 34 in 2.05 seconds
+2025-06-13 17:49:59,046 - INFO - Processing frame 35/105
+2025-06-13 17:49:59,071 - INFO - Frame 35: 768154/1000000 valid points
+2025-06-13 17:50:01,091 - INFO - Processed frame 35 in 2.05 seconds
+2025-06-13 17:50:01,091 - INFO - Processing frame 36/105
+2025-06-13 17:50:01,115 - INFO - Frame 36: 737328/1000000 valid points
+2025-06-13 17:50:03,057 - INFO - Processed frame 36 in 1.97 seconds
+2025-06-13 17:50:03,057 - INFO - Processing frame 37/105
+2025-06-13 17:50:03,081 - INFO - Frame 37: 733843/1000000 valid points
+2025-06-13 17:50:04,985 - INFO - Processed frame 37 in 1.93 seconds
+2025-06-13 17:50:04,986 - INFO - Processing frame 38/105
+2025-06-13 17:50:05,010 - INFO - Frame 38: 737883/1000000 valid points
+2025-06-13 17:50:06,922 - INFO - Processed frame 38 in 1.94 seconds
+2025-06-13 17:50:06,923 - INFO - Processing frame 39/105
+2025-06-13 17:50:06,947 - INFO - Frame 39: 750033/1000000 valid points
+2025-06-13 17:50:08,922 - INFO - Processed frame 39 in 2.00 seconds
+2025-06-13 17:50:08,923 - INFO - Processing frame 40/105
+2025-06-13 17:50:08,948 - INFO - Frame 40: 757444/1000000 valid points
+2025-06-13 17:50:10,920 - INFO - Processed frame 40 in 2.00 seconds
+2025-06-13 17:50:10,920 - INFO - Processing frame 41/105
+2025-06-13 17:50:10,946 - INFO - Frame 41: 756442/1000000 valid points
+2025-06-13 17:50:12,920 - INFO - Processed frame 41 in 2.00 seconds
+2025-06-13 17:50:12,921 - INFO - Processing frame 42/105
+2025-06-13 17:50:12,951 - INFO - Frame 42: 747586/1000000 valid points
+2025-06-13 17:50:14,906 - INFO - Processed frame 42 in 1.99 seconds
+2025-06-13 17:50:14,907 - INFO - Processing frame 43/105
+2025-06-13 17:50:14,933 - INFO - Frame 43: 746980/1000000 valid points
+2025-06-13 17:50:16,884 - INFO - Processed frame 43 in 1.98 seconds
+2025-06-13 17:50:16,884 - INFO - Processing frame 44/105
+2025-06-13 17:50:16,911 - INFO - Frame 44: 745270/1000000 valid points
+2025-06-13 17:50:18,891 - INFO - Processed frame 44 in 2.01 seconds
+2025-06-13 17:50:18,892 - INFO - Processing frame 45/105
+2025-06-13 17:50:18,917 - INFO - Frame 45: 730518/1000000 valid points
+2025-06-13 17:50:20,816 - INFO - Processed frame 45 in 1.92 seconds
+2025-06-13 17:50:20,817 - INFO - Processing frame 46/105
+2025-06-13 17:50:20,842 - INFO - Frame 46: 744631/1000000 valid points
+2025-06-13 17:50:22,792 - INFO - Processed frame 46 in 1.98 seconds
+2025-06-13 17:50:22,793 - INFO - Processing frame 47/105
+2025-06-13 17:50:56,440 - INFO - Frame 47: 751037/1000000 valid points
+2025-06-13 17:50:24,769 - INFO - Processed frame 47 in 1.98 seconds
+2025-06-13 17:50:24,770 - INFO - Processing frame 48/105
+2025-06-13 17:50:24,795 - INFO - Frame 48: 759492/1000000 valid points
+2025-06-13 17:50:26,802 - INFO - Processed frame 48 in 2.03 seconds
+2025-06-13 17:50:26,802 - INFO - Processing frame 49/105
+2025-06-13 17:50:26,828 - INFO - Frame 49: 755578/1000000 valid points
+2025-06-13 17:50:28,806 - INFO - Processed frame 49 in 2.00 seconds
+2025-06-13 17:50:28,807 - INFO - Processing frame 50/105
+2025-06-13 17:50:28,834 - INFO - Frame 50: 764662/1000000 valid points
+2025-06-13 17:50:30,816 - INFO - Processed frame 50 in 2.01 seconds
+2025-06-13 17:50:30,817 - INFO - Processing frame 51/105
+2025-06-13 17:50:30,843 - INFO - Frame 51: 773481/1000000 valid points
+2025-06-13 17:51:06,495 - INFO - Processed frame 51 in 35.68 seconds
+2025-06-13 17:51:06,495 - INFO - Processing frame 52/105
+2025-06-13 17:51:06,522 - INFO - Frame 52: 774820/1000000 valid points
+2025-06-13 17:50:34,929 - INFO - Processed frame 52 in -31.57 seconds
+2025-06-13 17:50:34,929 - INFO - Processing frame 53/105
+2025-06-13 17:50:34,956 - INFO - Frame 53: 775372/1000000 valid points
+2025-06-13 17:50:36,979 - INFO - Processed frame 53 in 2.05 seconds
+2025-06-13 17:50:36,979 - INFO - Processing frame 54/105
+2025-06-13 17:50:37,005 - INFO - Frame 54: 775658/1000000 valid points
+2025-06-13 17:50:39,023 - INFO - Processed frame 54 in 2.04 seconds
+2025-06-13 17:50:39,024 - INFO - Processing frame 55/105
+2025-06-13 17:50:39,048 - INFO - Frame 55: 754553/1000000 valid points
+2025-06-13 17:50:41,017 - INFO - Processed frame 55 in 1.99 seconds
+2025-06-13 17:50:41,018 - INFO - Processing frame 56/105
+2025-06-13 17:50:41,041 - INFO - Frame 56: 740105/1000000 valid points
+2025-06-13 17:50:42,965 - INFO - Processed frame 56 in 1.95 seconds
+2025-06-13 17:50:42,966 - INFO - Processing frame 57/105
+2025-06-13 17:50:42,993 - INFO - Frame 57: 743860/1000000 valid points
+2025-06-13 17:50:44,925 - INFO - Processed frame 57 in 1.96 seconds
+2025-06-13 17:50:44,925 - INFO - Processing frame 58/105
+2025-06-13 17:50:44,954 - INFO - Frame 58: 757237/1000000 valid points
+2025-06-13 17:50:46,921 - INFO - Processed frame 58 in 2.00 seconds
+2025-06-13 17:50:46,922 - INFO - Processing frame 59/105
+2025-06-13 17:50:46,947 - INFO - Frame 59: 759337/1000000 valid points
+2025-06-13 17:50:48,943 - INFO - Processed frame 59 in 2.02 seconds
+2025-06-13 17:50:48,944 - INFO - Processing frame 60/105
+2025-06-13 17:50:48,970 - INFO - Frame 60: 774707/1000000 valid points
+2025-06-13 17:50:51,017 - INFO - Processed frame 60 in 2.07 seconds
+2025-06-13 17:50:51,018 - INFO - Processing frame 61/105
+2025-06-13 17:50:51,042 - INFO - Frame 61: 761835/1000000 valid points
+2025-06-13 17:50:53,022 - INFO - Processed frame 61 in 2.00 seconds
+2025-06-13 17:50:53,022 - INFO - Processing frame 62/105
+2025-06-13 17:50:53,051 - INFO - Frame 62: 749820/1000000 valid points
+2025-06-13 17:50:55,005 - INFO - Processed frame 62 in 1.98 seconds
+2025-06-13 17:50:55,006 - INFO - Processing frame 63/105
+2025-06-13 17:50:55,030 - INFO - Frame 63: 734598/1000000 valid points
+2025-06-13 17:50:56,965 - INFO - Processed frame 63 in 1.96 seconds
+2025-06-13 17:50:56,966 - INFO - Processing frame 64/105
+2025-06-13 17:50:56,992 - INFO - Frame 64: 737370/1000000 valid points
+2025-06-13 17:50:58,926 - INFO - Processed frame 64 in 1.96 seconds
+2025-06-13 17:50:58,927 - INFO - Processing frame 65/105
+2025-06-13 17:50:58,952 - INFO - Frame 65: 726186/1000000 valid points
+2025-06-13 17:51:00,834 - INFO - Processed frame 65 in 1.91 seconds
+2025-06-13 17:51:00,835 - INFO - Processing frame 66/105
+2025-06-13 17:51:00,861 - INFO - Frame 66: 732553/1000000 valid points
+2025-06-13 17:51:02,782 - INFO - Processed frame 66 in 1.95 seconds
+2025-06-13 17:51:02,783 - INFO - Processing frame 67/105
+2025-06-13 17:51:02,808 - INFO - Frame 67: 736916/1000000 valid points
+2025-06-13 17:51:04,733 - INFO - Processed frame 67 in 1.95 seconds
+2025-06-13 17:51:04,733 - INFO - Processing frame 68/105
+2025-06-13 17:51:04,757 - INFO - Frame 68: 748604/1000000 valid points
+2025-06-13 17:51:06,687 - INFO - Processed frame 68 in 1.95 seconds
+2025-06-13 17:51:06,687 - INFO - Processing frame 69/105
+2025-06-13 17:51:06,711 - INFO - Frame 69: 774404/1000000 valid points
+2025-06-13 17:51:08,722 - INFO - Processed frame 69 in 2.03 seconds
+2025-06-13 17:51:08,723 - INFO - Processing frame 70/105
+2025-06-13 17:51:08,747 - INFO - Frame 70: 782104/1000000 valid points
+2025-06-13 17:51:10,780 - INFO - Processed frame 70 in 2.06 seconds
+2025-06-13 17:51:10,781 - INFO - Processing frame 71/105
+2025-06-13 17:51:10,805 - INFO - Frame 71: 791981/1000000 valid points
+2025-06-13 17:51:12,857 - INFO - Processed frame 71 in 2.08 seconds
+2025-06-13 17:51:12,857 - INFO - Processing frame 72/105
+2025-06-13 17:51:12,883 - INFO - Frame 72: 781684/1000000 valid points
+2025-06-13 17:51:14,913 - INFO - Processed frame 72 in 2.06 seconds
+2025-06-13 17:51:14,914 - INFO - Processing frame 73/105
+2025-06-13 17:51:14,938 - INFO - Frame 73: 785664/1000000 valid points
+2025-06-13 17:51:16,978 - INFO - Processed frame 73 in 2.06 seconds
+2025-06-13 17:51:16,979 - INFO - Processing frame 74/105
+2025-06-13 17:51:17,006 - INFO - Frame 74: 792860/1000000 valid points
+2025-06-13 17:51:19,129 - INFO - Processed frame 74 in 2.15 seconds
+2025-06-13 17:51:19,129 - INFO - Processing frame 75/105
+2025-06-13 17:51:19,156 - INFO - Frame 75: 772476/1000000 valid points
+2025-06-13 17:51:21,203 - INFO - Processed frame 75 in 2.07 seconds
+2025-06-13 17:51:21,203 - INFO - Processing frame 76/105
+2025-06-13 17:51:21,229 - INFO - Frame 76: 774910/1000000 valid points
+2025-06-13 17:51:23,282 - INFO - Processed frame 76 in 2.08 seconds
+2025-06-13 17:51:23,283 - INFO - Processing frame 77/105
+2025-06-13 17:51:23,311 - INFO - Frame 77: 776666/1000000 valid points
+2025-06-13 17:51:25,403 - INFO - Processed frame 77 in 2.12 seconds
+2025-06-13 17:51:25,403 - INFO - Processing frame 78/105
+2025-06-13 17:51:25,429 - INFO - Frame 78: 768050/1000000 valid points
+2025-06-13 17:51:27,475 - INFO - Processed frame 78 in 2.07 seconds
+2025-06-13 17:51:27,475 - INFO - Processing frame 79/105
+2025-06-13 17:51:27,502 - INFO - Frame 79: 769776/1000000 valid points
+2025-06-13 17:51:29,644 - INFO - Processed frame 79 in 2.17 seconds
+2025-06-13 17:51:29,645 - INFO - Processing frame 80/105
+2025-06-13 17:51:29,671 - INFO - Frame 80: 772285/1000000 valid points
+2025-06-13 17:51:31,779 - INFO - Processed frame 80 in 2.13 seconds
+2025-06-13 17:51:31,779 - INFO - Processing frame 81/105
+2025-06-13 17:51:31,806 - INFO - Frame 81: 772483/1000000 valid points
+2025-06-13 17:51:33,906 - INFO - Processed frame 81 in 2.13 seconds
+2025-06-13 17:51:33,907 - INFO - Processing frame 82/105
+2025-06-13 17:51:33,932 - INFO - Frame 82: 780141/1000000 valid points
+2025-06-13 17:51:35,971 - INFO - Processed frame 82 in 2.06 seconds
+2025-06-13 17:51:35,971 - INFO - Processing frame 83/105
+2025-06-13 17:51:35,999 - INFO - Frame 83: 766844/1000000 valid points
+2025-06-13 17:52:11,645 - INFO - Processed frame 83 in 35.67 seconds
+2025-06-13 17:52:11,646 - INFO - Processing frame 84/105
+2025-06-13 17:51:38,058 - INFO - Frame 84: 751899/1000000 valid points
+2025-06-13 17:51:40,030 - INFO - Processed frame 84 in -31.62 seconds
+2025-06-13 17:51:40,031 - INFO - Processing frame 85/105
+2025-06-13 17:51:40,055 - INFO - Frame 85: 741783/1000000 valid points
+2025-06-13 17:51:42,021 - INFO - Processed frame 85 in 1.99 seconds
+2025-06-13 17:51:42,022 - INFO - Processing frame 86/105
+2025-06-13 17:51:42,050 - INFO - Frame 86: 732903/1000000 valid points
+2025-06-13 17:51:43,983 - INFO - Processed frame 86 in 1.96 seconds
+2025-06-13 17:51:43,984 - INFO - Processing frame 87/105
+2025-06-13 17:51:44,008 - INFO - Frame 87: 723818/1000000 valid points
+2025-06-13 17:51:45,922 - INFO - Processed frame 87 in 1.94 seconds
+2025-06-13 17:51:45,922 - INFO - Processing frame 88/105
+2025-06-13 17:51:45,949 - INFO - Frame 88: 708502/1000000 valid points
+2025-06-13 17:51:47,825 - INFO - Processed frame 88 in 1.90 seconds
+2025-06-13 17:51:47,825 - INFO - Processing frame 89/105
+2025-06-13 17:51:47,852 - INFO - Frame 89: 694401/1000000 valid points
+2025-06-13 17:51:49,698 - INFO - Processed frame 89 in 1.87 seconds
+2025-06-13 17:51:49,698 - INFO - Processing frame 90/105
+2025-06-13 17:51:49,727 - INFO - Frame 90: 650981/1000000 valid points
+2025-06-13 17:51:51,407 - INFO - Processed frame 90 in 1.71 seconds
+2025-06-13 17:51:51,408 - INFO - Processing frame 91/105
+2025-06-13 17:51:51,434 - INFO - Frame 91: 595253/1000000 valid points
+2025-06-13 17:52:26,606 - INFO - Processed frame 91 in 35.20 seconds
+2025-06-13 17:52:26,607 - INFO - Processing frame 92/105
+2025-06-13 17:52:26,633 - INFO - Frame 92: 552456/1000000 valid points
+2025-06-13 17:51:54,481 - INFO - Processed frame 92 in -32.13 seconds
+2025-06-13 17:51:54,481 - INFO - Processing frame 93/105
+2025-06-13 17:51:54,506 - INFO - Frame 93: 532235/1000000 valid points
+2025-06-13 17:51:55,919 - INFO - Processed frame 93 in 1.44 seconds
+2025-06-13 17:51:55,919 - INFO - Processing frame 94/105
+2025-06-13 17:51:55,946 - INFO - Frame 94: 531965/1000000 valid points
+2025-06-13 17:51:57,381 - INFO - Processed frame 94 in 1.46 seconds
+2025-06-13 17:51:57,381 - INFO - Processing frame 95/105
+2025-06-13 17:51:57,409 - INFO - Frame 95: 526786/1000000 valid points
+2025-06-13 17:51:58,905 - INFO - Processed frame 95 in 1.52 seconds
+2025-06-13 17:51:58,905 - INFO - Processing frame 96/105
+2025-06-13 17:51:58,935 - INFO - Frame 96: 520876/1000000 valid points
+2025-06-13 17:52:00,442 - INFO - Processed frame 96 in 1.54 seconds
+2025-06-13 17:52:00,442 - INFO - Processing frame 97/105
+2025-06-13 17:52:00,470 - INFO - Frame 97: 523862/1000000 valid points
+2025-06-13 17:52:02,018 - INFO - Processed frame 97 in 1.58 seconds
+2025-06-13 17:52:02,018 - INFO - Processing frame 98/105
+2025-06-13 17:52:02,047 - INFO - Frame 98: 531900/1000000 valid points
+2025-06-13 17:52:03,184 - INFO - Processed frame 98 in 1.17 seconds
+2025-06-13 17:52:03,184 - INFO - Processing frame 99/105
+2025-06-13 17:52:03,215 - INFO - Frame 99: 530868/1000000 valid points
+2025-06-13 17:52:04,768 - INFO - Processed frame 99 in 1.58 seconds
+2025-06-13 17:52:04,768 - INFO - Processing frame 100/105
+2025-06-13 17:52:04,795 - INFO - Frame 100: 520802/1000000 valid points
+2025-06-13 17:52:06,321 - INFO - Processed frame 100 in 1.55 seconds
+2025-06-13 17:52:06,321 - INFO - Processing frame 101/105
+2025-06-13 17:52:06,350 - INFO - Frame 101: 521385/1000000 valid points
+2025-06-13 17:52:07,882 - INFO - Processed frame 101 in 1.56 seconds
+2025-06-13 17:52:07,882 - INFO - Processing frame 102/105
+2025-06-13 17:52:07,908 - INFO - Frame 102: 530745/1000000 valid points
+2025-06-13 17:52:09,074 - INFO - Processed frame 102 in 1.19 seconds
+2025-06-13 17:52:09,074 - INFO - Processing frame 103/105
+2025-06-13 17:52:09,102 - INFO - Frame 103: 532337/1000000 valid points
+2025-06-13 17:52:10,671 - INFO - Processed frame 103 in 1.60 seconds
+2025-06-13 17:52:10,671 - INFO - Processing frame 104/105
+2025-06-13 17:52:10,702 - INFO - Frame 104: 530702/1000000 valid points
+2025-06-13 17:52:12,253 - INFO - Processed frame 104 in 1.58 seconds
+2025-06-13 17:52:12,253 - INFO - Processing frame 105/105
+2025-06-13 17:52:12,280 - INFO - Frame 105: 520985/997427 valid points
+2025-06-13 17:52:13,335 - INFO - Processed frame 105 in 1.08 seconds
+2025-06-13 17:52:13,336 - INFO - Processed 105/105 frames successfully
