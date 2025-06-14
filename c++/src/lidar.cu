@@ -3,6 +3,7 @@
 #include "include/lidar.hpp"
 #include <thread>
 #include <string>
+#include <chrono>
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -85,7 +86,7 @@ __global__ void generateAndTransformPoints_kernel(
     if (idx >= num_points) return;
 
     const LidarPoint& p = d_input_points[idx];
-    float lidar_timestamp = p.timestamp;
+    double lidar_timestamp = p.timestamp;
 
     int gnss_idx = d_gnss_indices[idx];
     const GNSSRead& gnss1 = d_gnss_data[gnss_idx];
@@ -132,7 +133,7 @@ __global__ void generateAndTransformPoints_kernel(
     T[4] = sin_yaw * cos_pitch; T[5] = cos_yaw;  T[6] = sin_yaw * sin_pitch;  T[7] = easting;
     T[8] = -sin_pitch;          T[9] = 0;       T[10] = cos_pitch;            T[11] = altitude;
 
-    float x = p.x, y = p.y, z = p.z;
+    double x = p.x, y = p.y, z = p.z;
     d_output_points[idx].x = T[0] * x + T[1] * y + T[2] * z + T[3];
     d_output_points[idx].y = T[4] * x + T[5] * y + T[6] * z + T[7];
     d_output_points[idx].z = T[8] * x + T[9] * y + T[10] * z + T[11];
@@ -165,6 +166,26 @@ void ExportTransformedPoints(const std::vector<TransformedPoint>& transformed_po
 }
 
 
+void ExportTransformedPointsParallel(const std::vector<TransformedPoint> points, const std::string& out_filepath) {
+    std::ofstream outfile(out_filepath);
+    if (!outfile.is_open()) {
+        std::cerr << "Error: Could not create output file: " << out_filepath << "\n";
+        return;
+    }
+
+    std::ostringstream oss;
+    oss << "x y z intensity\n";
+    oss << std::fixed << std::setprecision(6);
+
+    for (const auto& p: points) {
+        oss << p.y << " " << p.x << " " << p.z << " " << p.intensity << "\n";
+    }
+
+    outfile << oss.str();
+    outfile.close();
+}
+
+
 void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir, const std::string& outfile) {
     
     std::vector<GNSSRead> gnss_data = ReadGNSSData(gnss_data_dir);
@@ -190,22 +211,23 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
     std::vector<LidarPoint> lidar_points;
     lidar_points.reserve(75000000);
 
+    auto start_read_lidar = std::chrono::high_resolution_clock::now();
+
     double timestamp, x, y, z, intensity;
     while (std::fscanf(file, "%lf %lf %lf %lf %lf", &timestamp, &x, &y, &z, &intensity) == 5) {
         if (timestamp >= start_gnss && timestamp <= end_gnss && norm(x, y, z) < LIDAR_POINT_DIST_MAX) {
-            float timestamp_f = static_cast<float>(timestamp);
-            float x_f = static_cast<float>(x);
-            float y_f = static_cast<float>(y);
-            float z_f = static_cast<float>(z);
-            float intensity_f = static_cast<float>(intensity);
-
-            lidar_points.push_back({timestamp_f, x_f + LIDAR_GNSS_OFFSET_X, y_f + LIDAR_GNSS_OFFSET_Y, z_f + LIDAR_GNSS_OFFSET_Z, intensity_f});
+            lidar_points.push_back({timestamp, x + LIDAR_GNSS_OFFSET_X, y + LIDAR_GNSS_OFFSET_Y, z + LIDAR_GNSS_OFFSET_Z, intensity});
         }
     }
+    
+    auto end_read_lidar = std::chrono::high_resolution_clock::now();
+
+    std::chrono::duration<double> duration_read_lidar = end_read_lidar - start_read_lidar;
+
+    std::cout << "Duration of reading lidar points file = " << duration_read_lidar.count() << "\n";
+
     std::fclose(file);
     
-    std::cout << "Processing " << lidar_points.size() << " LiDAR points.\n";
-
     std::vector<int> gnss_indices(lidar_points.size());
     std::vector<int> imu_indices(lidar_points.size());
 
@@ -213,7 +235,7 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
     size_t imu_search_idx = 0;
 
     for (size_t i = 0; i < lidar_points.size(); ++i) {
-        float p_ts = lidar_points[i].timestamp;
+        double p_ts = lidar_points[i].timestamp;
         
         while (gnss_search_idx < gnss_data.size() - 2 && gnss_data[gnss_search_idx + 1].timestamp < p_ts) {
             gnss_search_idx++;
@@ -262,11 +284,35 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
         std::cerr << "Error in CUDA kernel: " << cudaGetErrorString(cuda_error) << "\n";
     }
 
-    std::vector<TransformedPoint> transformed_points(num_points);
-    cudaMemcpy(transformed_points.data(), d_output_points, num_points * sizeof(TransformedPoint), cudaMemcpyDeviceToHost);
+    //std::vector<TransformedPoint> transformed_points(num_points);
+    //cudaMemcpy(transformed_points.data(), d_output_points, num_points * sizeof(TransformedPoint), cudaMemcpyDeviceToHost);
 
-    // Write using threads in different files (75.000.000 points so 1.000.000 ->)
-    ExportTransformedPoints(transformed_points, outfile);
+    int total_threads = num_points / 1000000;
+    int remainder = num_points % 1000000;
+    
+    if (remainder > 0) total_threads++;
+
+    std::vector<std::thread> threads;
+
+    for (int i = 0; i < total_threads; i++) {
+        int start_idx = i * 1000000;
+
+        int block_size = std::min(1000000, num_points - start_idx);
+
+        std::vector<TransformedPoint> points(block_size);
+
+        cudaMemcpy(points.data(), d_output_points + start_idx, block_size * sizeof(TransformedPoint), cudaMemcpyDeviceToHost);
+
+        const std::string filename = "../../results/c++/pointcloud/pointcloud_" + std::to_string(i + 1) + ".txt";
+        
+        threads.emplace_back(ExportTransformedPointsParallel, std::move(points), filename);
+    }
+
+    for (auto& t: threads) {
+        t.join();
+    }
+
+    //ExportTransformedPoints(transformed_points, outfile);
 
     cudaFree(d_input_points);
     cudaFree(d_output_points);

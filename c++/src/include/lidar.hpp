@@ -10,9 +10,9 @@ const float LIDAR_GNSS_OFFSET_Z = 0.69;
 const int LIDAR_POINT_DIST_MAX = 4;
 
 struct LidarPoint {
-    float timestamp;
-    float x, y, z;
-    float intensity;
+    double timestamp;
+    double x, y, z;
+    double intensity;
 };
 
 struct TransformedPoint {
