@@ -15,6 +15,10 @@
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
 
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 struct Quatd {
     double x, y, z, w;
@@ -141,28 +145,8 @@ __global__ void generateAndTransformPoints_kernel(
 }
 
 
-
 double norm(const double& x, const double& y, const double& z) {
     return std::sqrt((x * x + y * y + z * z));
-}
-
-void ExportTransformedPoints(const std::vector<TransformedPoint>& transformed_points, const std::string& out_filepath) {
-    std::ofstream outfile(out_filepath);
-    if (!outfile.is_open()) {
-        std::cerr << "Error: Could not create output file: " << out_filepath << "\n";
-        return;
-    }
-
-    std::ostringstream oss;
-    oss << "x y z intensity\n";
-    oss << std::fixed << std::setprecision(6);
-    for (const auto& point : transformed_points) {
-        oss << point.x << " " << point.y << " " << point.z << " " << point.intensity << "\n";
-    }
-
-    outfile << oss.str();
-    outfile.close();
-    std::cout << "Transformed points saved: " << out_filepath << "\n";
 }
 
 
@@ -196,25 +180,66 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
         return;
     }
 
-    FILE* file = std::fopen(filepath.c_str(), "r");
-    if (!file) {
+    int fd = open(filepath.c_str(), O_RDONLY);
+    if (fd == -1) {
         std::cerr << "Could not open LiDAR file: " << filepath << "\n";
-        return; 
+        return;
+    }
+
+    struct stat sb;
+    if (fstat(fd, &sb) == -1) {
+        close(fd);
+        return;
+    }
+
+    const char* file_data = static_cast<const char*>(mmap(nullptr, sb.st_size, PROT_READ, MAP_PRIVATE, fd, 0));
+    if (file_data == MAP_FAILED) {
+        close(fd);
+        return;
     }
 
     const double start_gnss = gnss_data[0].timestamp;
     const double end_gnss = gnss_data.back().timestamp;
 
-    char buff[256];
-    std::fgets(buff, sizeof(buff), file);
 
     std::vector<LidarPoint> lidar_points;
     lidar_points.reserve(75000000);
 
     auto start_read_lidar = std::chrono::high_resolution_clock::now();
 
-    double timestamp, x, y, z, intensity;
-    while (std::fscanf(file, "%lf %lf %lf %lf %lf", &timestamp, &x, &y, &z, &intensity) == 5) {
+    const char* ptr = file_data;
+    const char* end = file_data + sb.st_size;
+    
+    while (ptr < end && *ptr != '\n') ptr++;
+    if (ptr < end) ptr++;
+
+    while (ptr < end) {
+        double timestamp, x, y, z, intensity;
+        
+        char* next_ptr;
+        timestamp = strtod(ptr, &next_ptr);
+        if (next_ptr == ptr) break;
+        ptr = next_ptr;
+        
+        x = strtod(ptr, &next_ptr);
+        if (next_ptr == ptr) break;
+        ptr = next_ptr;
+        
+        y = strtod(ptr, &next_ptr);
+        if (next_ptr == ptr) break;
+        ptr = next_ptr;
+        
+        z = strtod(ptr, &next_ptr);
+        if (next_ptr == ptr) break;
+        ptr = next_ptr;
+        
+        intensity = strtod(ptr, &next_ptr);
+        if (next_ptr == ptr) break;
+        ptr = next_ptr;
+        
+        while (ptr < end && *ptr != '\n') ptr++;
+        if (ptr < end) ptr++;
+        
         if (timestamp >= start_gnss && timestamp <= end_gnss && norm(x, y, z) < LIDAR_POINT_DIST_MAX) {
             lidar_points.push_back({timestamp, x + LIDAR_GNSS_OFFSET_X, y + LIDAR_GNSS_OFFSET_Y, z + LIDAR_GNSS_OFFSET_Z, intensity});
         }
@@ -224,9 +249,7 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
 
     std::chrono::duration<double> duration_read_lidar = end_read_lidar - start_read_lidar;
 
-    std::cout << "Duration of reading lidar points file = " << duration_read_lidar.count() << "\n";
-
-    std::fclose(file);
+    std::cout << "Duration of reading lidar points file = " << duration_read_lidar.count() << " seconds\n";
     
     std::vector<int> gnss_indices(lidar_points.size());
     std::vector<int> imu_indices(lidar_points.size());
@@ -284,15 +307,14 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
         std::cerr << "Error in CUDA kernel: " << cudaGetErrorString(cuda_error) << "\n";
     }
 
-    //std::vector<TransformedPoint> transformed_points(num_points);
-    //cudaMemcpy(transformed_points.data(), d_output_points, num_points * sizeof(TransformedPoint), cudaMemcpyDeviceToHost);
-
     int total_threads = num_points / 1000000;
     int remainder = num_points % 1000000;
     
     if (remainder > 0) total_threads++;
 
     std::vector<std::thread> threads;
+
+    auto start_write_output = std::chrono::high_resolution_clock::now();
 
     for (int i = 0; i < total_threads; i++) {
         int start_idx = i * 1000000;
@@ -312,7 +334,11 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
         t.join();
     }
 
-    //ExportTransformedPoints(transformed_points, outfile);
+    auto end_write_output = std::chrono::high_resolution_clock::now();
+
+    std::chrono::duration<double> duration = end_write_output - start_write_output;
+
+    std::cout << "Duration of writing the transformed lidar points = " << duration.count() << "\n";
 
     cudaFree(d_input_points);
     cudaFree(d_output_points);

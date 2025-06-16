@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
 
     std::chrono::duration<double> duration = end - start;
 
-    std::cout << "Duration of the program = " << duration.count() << "seconds\n";
+    std::cout << "Duration of the program = " << duration.count() << " seconds\n";
 
     return EXIT_SUCCESS;
 }

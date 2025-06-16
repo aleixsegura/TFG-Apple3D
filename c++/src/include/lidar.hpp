@@ -2,6 +2,7 @@
 #define PROCESSING_HPP
 
 #include <string>
+#include <functional>
 
 
 const float LIDAR_GNSS_OFFSET_X = -0.036;
