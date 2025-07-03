@@ -20,9 +20,9 @@ logging.basicConfig(level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 
-def transform_gnss_data(lidar_model: str, track_type: str) -> NDArray[np.float64]:
+def transform_gnss_data() -> NDArray[np.float64]:
     try:
-        gnss_data = np.loadtxt(f'../../{lidar_model}/{track_type}/gnss_{track_type}.txt', skiprows=1, dtype=np.float64)
+        gnss_data = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/gnss_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
         
         result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lat) ===> easting northing
         result = np.array(result)
@@ -41,9 +41,9 @@ def transform_gnss_data(lidar_model: str, track_type: str) -> NDArray[np.float64
         raise
 
 
-def transform_lidar_points(lidar_model: str, track_type: str, gnss_data: NDArray[np.float64]) -> NDArray[np.float64]:
+def transform_lidar_points(gnss_data: NDArray[np.float64]) -> NDArray[np.float64]:
     try:
-        lidar_points = np.loadtxt(f'../../{lidar_model}/{track_type}/lidar_{track_type}.txt', skiprows=1, dtype=np.float64)
+        lidar_points = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/lidar_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
         lidar_points = lidar_points[(lidar_points[:, 0] <= gnss_data[-1, 0]) & 
                                    (lidar_points[:, 0] >= gnss_data[0, 0])]
         
