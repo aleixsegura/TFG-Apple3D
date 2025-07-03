@@ -132,7 +132,8 @@ The point clouds will be saved as `.txt` files in the `results/c++/pointcloud/` 
 
 After loading the point clouds in to CloudCompare the visualization should look like this:
 
-<img src="https://www.dropbox.com/scl/fi/08ljtygfmabvccx10fxuj/ouster_go.png?rlkey=qf77oyrq3df9qw5pb5o3mia3p&dl=1" alt="OUSTGOPCL" width="400"/>
+<img src="https://dl.dropboxusercontent.com/s/08ljtygfmabvccx10fxuj/ouster_go.png" alt="OUSTGOPCL" width="400"/>
+
 
 ### Metrics
 
@@ -150,15 +151,15 @@ The tree's geometrical characteristics computed were:
 
 The computed metrics with respect to the *ground truth* are: **MAE**, **MAPE**, **RMSE**, and **R²**.
 
-<img src="https://www.dropbox.com/scl/fi/mxsaao2lxiybq0ythwxte/metriques_ouster.png?rlkey=522uf3hmdj0w64e7vdfc3lcry&st=s76umyim&dl=1" alt="GEOMCHARS" width="300"/>
+<img src="https://dl.dropboxusercontent.com/s/mxsaao2lxiybq0ythwxte/metriques_ouster.png" alt="GEOMCHARS" width="300"/>
 
 ### Python vs C++
 
 After computing the execution times of the two versions, the results are the following:
 
-<img src="https://www.dropbox.com/scl/fi/s74urbdywemv6je2rtgqv/tempstotal.png?rlkey=n86wk27ujbqz62p0dak7s8akf&st=jxk2hsoc&dl=1" alt="TOTALTIME" width="300"/>
+<img src="https://dl.dropboxusercontent.com/s/s74urbdywemv6je2rtgqv/tempstotal.png" alt="TOTALTIME" width="300"/>
 
-<img src="https://www.dropbox.com/scl/fi/wejdwy56wxf9h4fzi6alp/tempsfases.png?rlkey=i39qy7hdydq10sbyo9t1wy9d7&st=a3zc58xl&dl=1" alt="PHASESTIME" width="300"/>
+<img src="https://dl.dropboxusercontent.com/s/wejdwy56wxf9h4fzi6alp/tempsfases.png" alt="PHASESTIME" width="300"/>
 
 ## Author, Affiliation and Collaborators
 
