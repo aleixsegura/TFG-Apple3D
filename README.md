@@ -132,7 +132,7 @@ The point clouds will be saved as `.txt` files in the `results/c++/pointcloud/` 
 
 After loading the point clouds in to CloudCompare the visualization should look like this:
 
-<img src="https://dl.dropboxusercontent.com/s/08ljtygfmabvccx10fxuj/ouster_go.png" alt="OUSTGOPCL" width="400"/>
+<img src="https://www.dropbox.com/scl/fi/08ljtygfmabvccx10fxuj/ouster_go.png?rlkey=qf77oyrq3df9qw5pb5o3mia3p&st=d2b4azmr&raw=1" alt="OUSTGOPCL" width="400"/>
 
 
 ### Metrics
