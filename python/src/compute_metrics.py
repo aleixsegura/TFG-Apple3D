@@ -49,10 +49,6 @@ def main():
     ground_truth_geometrical_data = [ground_truth_df[feature] for feature in GEOMETRICAL_CHARACTERISTICS]
     computed_pcl_geometrical_data = [computed_pcl_df[feature] for feature in GEOMETRICAL_CHARACTERISTICS]
 
-    print(ground_truth_geometrical_data[5], end='\n\n')
-    print(computed_pcl_geometrical_data[5])
-    exit(0)
-
     mae_results, mape_results, rmse_results  = [], [], []
 
     for gt_series, pcl_series in zip(ground_truth_geometrical_data, computed_pcl_geometrical_data):
