@@ -170,7 +170,7 @@ void ExportTransformedPointsParallel(const std::vector<TransformedPoint> points,
 }
 
 
-void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir, const std::string& outfile) {
+void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir) {
     
     std::vector<GNSSRead> gnss_data = ReadGNSSData(gnss_data_dir);
     std::vector<IMURead> imu_data = ReadIMUData(imu_data_dir); 
