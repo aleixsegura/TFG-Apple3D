@@ -166,7 +166,7 @@ def main():
     try:
         np.set_printoptions(suppress=True)
 
-        result_dir = Path(f'../../results/pointcloud/{LIDAR_MODEL}/{TRACK_TYPE}')
+        result_dir = Path(f'../../results/python/pointcloud/{LIDAR_MODEL}/{TRACK_TYPE}')
         result_dir.mkdir(parents=True, exist_ok=True)
         
         logger.info(f'Created directory: {result_dir}')
