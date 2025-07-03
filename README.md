@@ -151,15 +151,15 @@ The tree's geometrical characteristics computed were:
 
 The computed metrics with respect to the *ground truth* are: **MAE**, **MAPE**, **RMSE**, and **R²**.
 
-<img src="https://dl.dropboxusercontent.com/s/mxsaao2lxiybq0ythwxte/metriques_ouster.png" alt="GEOMCHARS" width="300"/>
+<img src="https://www.dropbox.com/scl/fi/mxsaao2lxiybq0ythwxte/metriques_ouster.png?rlkey=522uf3hmdj0w64e7vdfc3lcry&st=s76umyim&raw=1" alt="GEOMCHARS" width="300"/>
 
 ### Python vs C++
 
 After computing the execution times of the two versions, the results are the following:
 
-<img src="https://dl.dropboxusercontent.com/s/s74urbdywemv6je2rtgqv/tempstotal.png" alt="TOTALTIME" width="300"/>
+<img src="https://www.dropbox.com/scl/fi/s74urbdywemv6je2rtgqv/tempstotal.png?rlkey=n86wk27ujbqz62p0dak7s8akf&st=jxk2hsoc&raw=1" alt="TOTALTIME" width="300"/>
 
-<img src="https://dl.dropboxusercontent.com/s/wejdwy56wxf9h4fzi6alp/tempsfases.png" alt="PHASESTIME" width="300"/>
+<img src="https://www.dropbox.com/scl/fi/wejdwy56wxf9h4fzi6alp/tempsfases.png?rlkey=i39qy7hdydq10sbyo9t1wy9d7&st=a3zc58xl&raw=1" alt="PHASESTIME" width="300"/>
 
 ## Author, Affiliation and Collaborators
 
