@@ -15,9 +15,8 @@ int main(int argc, char** argv) {
     const std::string imu_data_path     = "../../" + lidar_model + "/" + track_type + "/imu_" + track_type + ".txt";
     const std::string lidar_points_path = "../../" + lidar_model + "/" + track_type + "/lidar_" + track_type + ".txt";
 
-    const std::string outfile_path = "../../results/c++/pointcloud/" + lidar_model + "_" + track_type + "_pointcloud.txt";
     
-    ProcessLidarPoints(lidar_points_path, gnss_data_path, imu_data_path, outfile_path);
+    ProcessLidarPoints(lidar_points_path, gnss_data_path, imu_data_path);
     
     auto end = std::chrono::high_resolution_clock::now();
 
