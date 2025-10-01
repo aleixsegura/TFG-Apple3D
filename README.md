@@ -160,3 +160,10 @@ After computing the execution times of the two versions, the results are the fol
 <img src="https://www.dropbox.com/scl/fi/s74urbdywemv6je2rtgqv/tempstotal.png?rlkey=n86wk27ujbqz62p0dak7s8akf&st=jxk2hsoc&raw=1" alt="TOTALTIME" width="300"/>
 
 <img src="https://www.dropbox.com/scl/fi/wejdwy56wxf9h4fzi6alp/tempsfases.png?rlkey=i39qy7hdydq10sbyo9t1wy9d7&st=a3zc58xl&raw=1" alt="PHASESTIME" width="300"/>
+
+## Instituional Research
+
+DIGIFRUIT is the research project TED2021-131871B-I00 funded by the Ministerio de Ciencia e Innovación within the 2021 call for strategic projects aimed at the Ecological and Digital Transition of the Plan Estatal de Investigación Científica, Técnica y de Innovación 2021-2023 (MCIN/AEI/ 10.13039/501100011033 and ERDF UE).
+
+<img src="https://www.grap.udl.cat/export/sites/Grap/ca/.galleries/logos/LogoMICIN.png" alt="DIGIFRUIT" width="200"/>
+
