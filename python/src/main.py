@@ -69,7 +69,7 @@ def transform_lidar_points(gnss_data: NDArray[np.float64]) -> NDArray[np.float64
         raise RuntimeError()
 
 
-def is_strictly_increasing(arr: NDArray[np.float64]) -> bool:
+def is_strictly_increasing(arr: NDArray[np.float64]) -> np.bool:
     return np.all(np.diff(arr) > 0)
 
 
@@ -174,9 +174,9 @@ def main():
         logger.info('Loading sensor data...')
         
         imu_data     = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/imu_{TRACK_TYPE}.txt', skiprows=1)
-        gnss_data    = transform_gnss_data(LIDAR_MODEL, TRACK_TYPE)            
+        gnss_data    = transform_gnss_data()            
         
-        lidar_frames = transform_lidar_points(LIDAR_MODEL, TRACK_TYPE, gnss_data)
+        lidar_frames = transform_lidar_points(gnss_data)
 
         
         logger.info(f'IMU time range: {imu_data[0, 0]} to {imu_data[-1, 0]}')
