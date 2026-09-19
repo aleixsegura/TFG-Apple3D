@@ -25,7 +25,7 @@ While the GNSS and IMU files contain the full set of sensed data, the LiDAR file
 To clone the project, run the following command:
 
 ```bash
-$ git clone https://github.com/aleixsegura/TFG-Apple3D
+git clone https://github.com/aleixsegura/TFG-Apple3D
 ```
 
 ## Python (main) version
@@ -37,14 +37,14 @@ The Python version of the program was implemented using Python 3.12.3 in a WSL U
 After cloning the project, the next step is to create a virtual environment. To do so, run:
 
 ```bash
-$ python3 -m venv .env
+python3 -m venv .env
 ```
 
 After that activate the virtual environment and install the dependencies contained in [requirements.txt](python/requirements.txt):
 
 ```bash
-$ source .env/bin/activate
-$ pip install -r requirements.txt
+source .env/bin/activate
+pip install -r requirements.txt
 ```
 
 ### Running the Program
@@ -56,7 +56,7 @@ Place the downloaded sample data files (`gnss_go.txt`, `imu_go.txt`, `lidar_go.t
 Then, navigate to the `python/src/` directory and run:
 
 ```bash
-$ python3 main.py ouster go
+python3 main.py ouster go
 ```
 
 The point clouds will be saved as `.txt` files in the `results/python/pointcloud/ouster/go` directory, ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
@@ -77,8 +77,8 @@ To compile the C++ version, you must have the following installed:
 On Ubuntu/Debian, you can install the required system packages with:
 
 ```bash
-$ sudo apt update
-$ sudo apt install build-essential cmake pkg-config libproj-dev
+sudo apt update
+sudo apt install build-essential cmake pkg-config libproj-dev
 ```
 
 To install CUDA, you can follow this tutorial:
@@ -102,26 +102,26 @@ Then, follow these steps from the root of the `c++` folder:
 1. **Create a build directory and navigate into it:**
 
 ```bash
-$ mkdir build
-$ cd build
+mkdir build
+cd build
 ```
 
 2. **Run CMake to configure the project:**
 
 ```bash
-$ cmake ..
+cmake ..
 ```
 
 3. **Build the executable:**
 
 ```bash
-$ make
+make
 ```
 
 4. **Run the program:**
 
 ```bash
-$ ./main
+./main
 ```
 
 The point clouds will be saved as `.txt` files in the `results/c++/pointcloud/` directory, ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
