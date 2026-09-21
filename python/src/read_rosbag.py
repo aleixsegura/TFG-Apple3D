@@ -57,7 +57,7 @@ def reset_move_files(move: str):
     
     with open(f'./{move}/gnss_{move}.txt', 'w') as f:
         f.write(f'{"timestamp".center(15)}\t'
-                f'{"latitude".center(25)}\t{"longitude".center(20)}\t{"altitude".center(10)}\n'
+                f'{"longitude".center(25)}\t{"latitude".center(20)}\t{"altitude".center(10)}\n'
         )
 
     with open(f'./{move}/lidar_{move}.txt', 'w') as f:
