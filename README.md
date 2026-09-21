@@ -28,6 +28,22 @@ To clone the project, run the following command:
 git clone https://github.com/aleixsegura/TFG-Apple3D
 ```
 
+## Directory Structure
+
+First create the following directory structure in the root of the project and place the downloaded sample data files (gnss_go.txt, imu_go.txt, lidar_go.txt) inside the ouster/go/ directory. 
+
+```text
+TFG-Apple3D/
+├── ouster/
+│   └── go/
+│       ├── gnss_go.txt
+│       ├── imu_go.txt
+│       └── lidar_go.txt
+└── results/
+    ├── python/pointcloud/
+    └── c++/pointcloud/
+```
+
 ## Python (main) version
 
 The Python version of the program was implemented using Python 3.12.3 in a WSL Ubuntu 24.04.2 LTS environment. 
@@ -49,11 +65,7 @@ pip install -r requirements.txt
 
 ### Running the Program
 
-To run the main program, first create the following directory structure in the root of the project:
-
-Place the downloaded sample data files (`gnss_go.txt`, `imu_go.txt`, `lidar_go.txt`) inside the `ouster/go/` directory.
-
-Then, navigate to the `python/src/` directory and run:
+Navigate to the `python/src/` directory and run:
 
 ```bash
 python3 main.py ouster go
@@ -90,14 +102,6 @@ To install CUDA, you can follow this tutorial:
 
 
 ### Running the program
-
-To run the main program, first create the following directory structure in the root of the project:
-
-Place the downloaded sample data files (`gnss_go.txt`, `imu_go.txt`, `lidar_go.txt`) inside the `ouster/go/` directory.
-
-Also, create the `results/c++/pointcloud/` directory.
-
-Then, follow these steps from the root of the `c++` folder:
 
 1. **Create a build directory and navigate into it:**
 
