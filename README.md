@@ -121,7 +121,7 @@ make
 4. **Run the program:**
 
 ```bash
-./main
+./main ouster go
 ```
 
 The point clouds will be saved as `.txt` files in the `results/c++/pointcloud/` directory, ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.

@@ -7,9 +7,26 @@
 
 int main(int argc, char** argv) {
     auto start = std::chrono::high_resolution_clock::now();
+    
+    if (argc != 3) {
+        std::cerr << "Lidar model and track type are required as arguments.\nUsage: ./main <lidar_model> <track_type>" << std::endl;
+        return EXIT_FAILURE;
+    }
 
     std::string lidar_model = argv[1];
     std::string track_type  = argv[2];
+
+    if (lidar_model != "ouster" && lidar_model != "livox") {
+        std::cerr << "Invalid lidar model" << std::endl;
+        return EXIT_FAILURE;
+    }
+
+    if (track_type != "go" &&
+        track_type != "back" &&
+        track_type != "loop") {
+        std::cerr << "Invalid track type" << std::endl;
+        return EXIT_FAILURE;
+    }
 
     const std::string gnss_data_path    = "../../" + lidar_model + "/" + track_type + "/gnss_" + track_type + ".txt";
     const std::string imu_data_path     = "../../" + lidar_model + "/" + track_type + "/imu_" + track_type + ".txt";
