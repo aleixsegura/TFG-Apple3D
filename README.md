@@ -49,7 +49,21 @@ pip install -r requirements.txt
 
 ### Running the Program
 
-To run the main program, first create the following directory structure in the root of the project:
+From the repository root, place the input files in the following directory. The Python program creates its output directory automatically:
+
+```text
+TFG-Apple3D/
+├── ouster/
+│   └── go/
+│       ├── gnss_go.txt
+│       ├── imu_go.txt
+│       └── lidar_go.txt
+└── results/
+    └── python/
+        └── pointcloud/
+            └── ouster/
+                └── go/
+```
 
 Place the downloaded sample data files (`gnss_go.txt`, `imu_go.txt`, `lidar_go.txt`) inside the `ouster/go/` directory.
 
@@ -91,11 +105,23 @@ To install CUDA, you can follow this tutorial:
 
 ### Running the program
 
-To run the main program, first create the following directory structure in the root of the project:
+From the repository root, place the input files and create the C++ output directory as shown:
+
+```text
+TFG-Apple3D/
+├── ouster/
+│   └── go/
+│       ├── gnss_go.txt
+│       ├── imu_go.txt
+│       └── lidar_go.txt
+└── results/
+    └── c++/
+        └── pointcloud/
+```
+
+Create `results/c++/pointcloud/` before running the C++ program; it writes point-cloud files there.
 
 Place the downloaded sample data files (`gnss_go.txt`, `imu_go.txt`, `lidar_go.txt`) inside the `ouster/go/` directory.
-
-Also, create the `results/c++/pointcloud/` directory.
 
 Then, follow these steps from the root of the `c++` folder:
 
