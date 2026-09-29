@@ -1,6 +1,6 @@
-import sys
 import time
 import logging
+import argparse
 import numpy as np
 from util import latlon_to_utm
 from pathlib import Path
@@ -9,8 +9,22 @@ from scipy.interpolate import interp1d
 from config import DIST_MAX, LIDAR_GNSS_OFFSETS, LIVOX_RAW_FRAME_SIZE, OUSTER_RAW_FRAME_SIZE
 
 
-LIDAR_MODEL       = sys.argv[1].lower()
-TRACK_TYPE        = sys.argv[2].lower()
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Georeference and reconstruct LiDAR point clouds using IMU and GNSS data.')
+    parser.add_argument('lidar_model', type=str.lower, choices=['ouster', 'livox'], help='LiDAR model used to capture the data')
+    parser.add_argument('track_type', type=str.lower, choices=['go', 'back', 'loop'], help='Track type of the captured data')
+    parser.add_argument('--data-dir', default='../..',
+                        help="Directory containing the '<lidar_model>/<track_type>' sensor data (default: %(default)s)")
+    parser.add_argument('--out-dir', default='../../results/python/pointcloud',
+                        help='Directory where the resulting point clouds will be written (default: %(default)s)')
+    return parser.parse_args()
+
+
+ARGS              = parse_args()
+LIDAR_MODEL       = ARGS.lidar_model
+TRACK_TYPE        = ARGS.track_type
+DATA_DIR          = Path(ARGS.data_dir) / LIDAR_MODEL / TRACK_TYPE
+RESULT_DIR        = Path(ARGS.out_dir) / LIDAR_MODEL / TRACK_TYPE
 FRAME_SIZE        = LIVOX_RAW_FRAME_SIZE if LIDAR_MODEL == 'livox' else OUSTER_RAW_FRAME_SIZE
 
 
@@ -22,7 +36,7 @@ logger = logging.getLogger(__name__)
 
 def transform_gnss_data() -> NDArray[np.float64]:
     try:
-        gnss_data = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/gnss_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
+        gnss_data = np.loadtxt(DATA_DIR / f'gnss_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
         
         result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lat) ===> easting northing
         result = np.array(result)
@@ -43,7 +57,7 @@ def transform_gnss_data() -> NDArray[np.float64]:
 
 def transform_lidar_points(gnss_data: NDArray[np.float64]) -> NDArray[np.float64]:
     try:
-        lidar_points = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/lidar_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
+        lidar_points = np.loadtxt(DATA_DIR / f'lidar_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
         lidar_points = lidar_points[(lidar_points[:, 0] <= gnss_data[-1, 0]) & 
                                    (lidar_points[:, 0] >= gnss_data[0, 0])]
         
@@ -143,7 +157,7 @@ def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], im
             rotated_lidar_data[:, 4]
         ))
 
-        with open(f'../../results/python/pointcloud/{LIDAR_MODEL}/{TRACK_TYPE}/point_cloud_{frame_idx}.txt', 'w') as pcf:
+        with open(RESULT_DIR / f'point_cloud_{frame_idx}.txt', 'w') as pcf:
             pcf.write(f'{"Timestamp (s)".center(10)}\t{"Frame num.".center(10)}\t{"Easting (X)".center(10)}\t{"Northing (Y)".center(30)}\t'
                     f'{"Altitude (Z)".center(10)}\t{"Intensity".center(15)}\r\n'
             )
@@ -166,14 +180,13 @@ def main():
     try:
         np.set_printoptions(suppress=True)
 
-        result_dir = Path(f'../../results/python/pointcloud/{LIDAR_MODEL}/{TRACK_TYPE}')
-        result_dir.mkdir(parents=True, exist_ok=True)
-        
-        logger.info(f'Created directory: {result_dir}')
+        RESULT_DIR.mkdir(parents=True, exist_ok=True)
+
+        logger.info(f'Created directory: {RESULT_DIR}')
 
         logger.info('Loading sensor data...')
-        
-        imu_data     = np.loadtxt(f'../../{LIDAR_MODEL}/{TRACK_TYPE}/imu_{TRACK_TYPE}.txt', skiprows=1)
+
+        imu_data     = np.loadtxt(DATA_DIR / f'imu_{TRACK_TYPE}.txt', skiprows=1)
         gnss_data    = transform_gnss_data()            
         
         lidar_frames = transform_lidar_points(gnss_data)

@@ -1,1 +1,7 @@
 ouster/
+.env
+.claude
+.vscode
+
+__pycache__
+*.log

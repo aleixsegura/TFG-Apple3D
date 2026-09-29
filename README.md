@@ -30,19 +30,18 @@ git clone https://github.com/aleixsegura/TFG-Apple3D
 
 ## Directory Structure
 
-First create the following directory structure in the root of the project and place the downloaded sample data files (gnss_go.txt, imu_go.txt, lidar_go.txt) inside the ouster/go/ directory. 
+By default, both programs expect the sensor data to live under `<lidar_model>/<track_type>/` relative to the project root, and write their output under `results/`. Place the downloaded sample data files (gnss_go.txt, imu_go.txt, lidar_go.txt) inside the `ouster/go/` directory:
 
 ```text
 TFG-Apple3D/
-├── ouster/
-│   └── go/
-│       ├── gnss_go.txt
-│       ├── imu_go.txt
-│       └── lidar_go.txt
-└── results/
-    ├── python/pointcloud/
-    └── c++/pointcloud/
+└── ouster/
+    └── go/
+        ├── gnss_go.txt
+        ├── imu_go.txt
+        └── lidar_go.txt
 ```
+
+Both programs accept `--data-dir` and `--out-dir` to point at different locations, and both programs create their output directory automatically, so this layout (and the `results/` directory) is only needed if you run with the defaults. See the sections below for details.
 
 ## Python (main) version
 
@@ -65,13 +64,19 @@ pip install -r requirements.txt
 
 ### Running the Program
 
-Navigate to the `python/src/` directory and run:
+The program can be run from any directory:
 
 ```bash
-python3 main.py ouster go
+python3 python/src/main.py ouster go
 ```
 
-The point clouds will be saved as `.txt` files in the `results/python/pointcloud/ouster/go` directory, ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
+By default, it looks for the sensor data at `../../<lidar_model>/<track_type>/` (relative to `python/src/`) and writes the output point clouds under `../../results/python/pointcloud/<lidar_model>/<track_type>/`. Both locations can be overridden with `--data-dir` and `--out-dir`:
+
+```bash
+python3 python/src/main.py ouster go --data-dir /path/to/sensor/data --out-dir /path/to/output
+```
+
+The output directory is created automatically if it doesn't exist. The resulting `.txt` point cloud files are ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
 
 
 ## C++ Version
@@ -124,11 +129,19 @@ make
 
 4. **Run the program:**
 
+The program can be run from any directory, e.g. from `c++/build/`:
+
 ```bash
 ./main ouster go
 ```
 
-The point clouds will be saved as `.txt` files in the `results/c++/pointcloud/` directory, ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
+By default, it looks for the sensor data at `../../<lidar_model>/<track_type>/` (relative to `c++/build/`) and writes the output point clouds to `../../results/c++/pointcloud/`. Both locations can be overridden with `--data-dir` and `--out-dir`:
+
+```bash
+./main ouster go --data-dir /path/to/sensor/data --out-dir /path/to/output
+```
+
+The output directory is created automatically if it doesn't exist. The resulting `.txt` point cloud files are ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
 
 ## Results
 

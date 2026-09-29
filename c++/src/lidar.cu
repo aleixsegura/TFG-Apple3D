@@ -170,7 +170,7 @@ void ExportTransformedPointsParallel(const std::vector<TransformedPoint> points,
 }
 
 
-void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir) {
+void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir, const std::string& out_dir) {
     
     std::vector<GNSSRead> gnss_data = ReadGNSSData(gnss_data_dir);
     std::vector<IMURead> imu_data = ReadIMUData(imu_data_dir); 
@@ -325,7 +325,7 @@ void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_dat
 
         cudaMemcpy(points.data(), d_output_points + start_idx, block_size * sizeof(TransformedPoint), cudaMemcpyDeviceToHost);
 
-        const std::string filename = "../../results/c++/pointcloud/pointcloud_" + std::to_string(i + 1) + ".txt";
+        const std::string filename = out_dir + "/pointcloud_" + std::to_string(i + 1) + ".txt";
         
         threads.emplace_back(ExportTransformedPointsParallel, std::move(points), filename);
     }

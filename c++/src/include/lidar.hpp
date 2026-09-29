@@ -21,6 +21,6 @@ struct TransformedPoint {
     double intensity;
 };
 
-void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir);
+void ProcessLidarPoints(const std::string& filepath, const std::string& gnss_data_dir, const std::string& imu_data_dir, const std::string& out_dir);
 
 #endif
