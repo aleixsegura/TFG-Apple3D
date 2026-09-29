@@ -78,6 +78,18 @@ python3 python/src/main.py ouster go --data-dir /path/to/sensor/data --out-dir /
 
 The output directory is created automatically if it doesn't exist. The resulting `.txt` point cloud files are ready to be loaded into point cloud visualization and manipulation software such as CloudCompare.
 
+### Running the Tests
+
+Install the development dependencies (adds `pytest` on top of `requirements.txt`) and run the suite from the `python/` directory:
+
+```bash
+cd python
+pip install -r requirements-dev.txt
+pytest
+```
+
+The tests cover GNSS→UTM conversion, IMU-based rotation, temporal interpolation, and LiDAR frame segmentation, plus an integration test that runs the full pipeline over a small versioned data subset (`python/tests/data/`) and compares the output against a reference point cloud.
+
 
 ## C++ Version
 The C++ version of the program was implemented using C++17 in a WSL Ubuntu 24.04.2 LTS environment. It consists of CUDA-accelerated (and also CPU-accelerated) code to preprocess and transform LiDAR point clouds using GNSS and IMU data. It is built using CMake and requires a C++17-compatible compiler and a CUDA-capable GPU (tested on NVIDIA RTX 3070, Compute Capability 8.6).

@@ -20,24 +20,23 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-ARGS              = parse_args()
-LIDAR_MODEL       = ARGS.lidar_model
-TRACK_TYPE        = ARGS.track_type
-DATA_DIR          = Path(ARGS.data_dir) / LIDAR_MODEL / TRACK_TYPE
-RESULT_DIR        = Path(ARGS.out_dir) / LIDAR_MODEL / TRACK_TYPE
-FRAME_SIZE        = LIVOX_RAW_FRAME_SIZE if LIDAR_MODEL == 'livox' else OUSTER_RAW_FRAME_SIZE
+def frame_size_for(lidar_model: str) -> int:
+    return LIVOX_RAW_FRAME_SIZE if lidar_model == 'livox' else OUSTER_RAW_FRAME_SIZE
 
 
-logging.basicConfig(level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    filename='lidar_processing.log')
 logger = logging.getLogger(__name__)
 
 
-def transform_gnss_data() -> NDArray[np.float64]:
+def configure_logging() -> None:
+    logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s',
+                        filename='lidar_processing.log')
+
+
+def transform_gnss_data(data_dir: Path, track_type: str) -> NDArray[np.float64]:
     try:
-        gnss_data = np.loadtxt(DATA_DIR / f'gnss_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
-        
+        gnss_data = np.loadtxt(data_dir / f'gnss_{track_type}.txt', skiprows=1, dtype=np.float64)
+
         easting, northing = latlon_array_to_utm(gnss_data[:, 1], gnss_data[:, 2])  # (lon, lat) ===> easting northing
 
         gnss_data[:, 1] = easting
@@ -46,7 +45,7 @@ def transform_gnss_data() -> NDArray[np.float64]:
         if not is_strictly_increasing(gnss_data[:, 0]):
             logger.warning('GNSS timestamps are not strictly increasing')
             gnss_data = gnss_data[np.argsort(gnss_data[:, 0])]
-            
+
         logger.info(f'Loaded {len(gnss_data)} GNSS points')
         return gnss_data
     except Exception as e:
@@ -54,29 +53,36 @@ def transform_gnss_data() -> NDArray[np.float64]:
         raise
 
 
-def transform_lidar_points(gnss_data: NDArray[np.float64]) -> NDArray[np.float64]:
+def segment_into_frames(points: NDArray[np.float64], frame_size: int) -> list:
+    num_frames = len(points) // frame_size
+    remainder = len(points) % frame_size
+
+    frames = [points[i * frame_size:(i + 1) * frame_size] for i in range(num_frames)]
+
+    if remainder > 0:
+        frames.append(points[-remainder:])
+
+    return frames
+
+
+def transform_lidar_points(gnss_data: NDArray[np.float64], data_dir: Path, track_type: str, frame_size: int) -> NDArray[np.float64]:
     try:
-        lidar_points = np.loadtxt(DATA_DIR / f'lidar_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
-        lidar_points = lidar_points[(lidar_points[:, 0] <= gnss_data[-1, 0]) & 
+        lidar_points = np.loadtxt(data_dir / f'lidar_{track_type}.txt', skiprows=1, dtype=np.float64)
+        lidar_points = lidar_points[(lidar_points[:, 0] <= gnss_data[-1, 0]) &
                                    (lidar_points[:, 0] >= gnss_data[0, 0])]
-        
-        
-        num_frames = len(lidar_points) // FRAME_SIZE
-        remainder = len(lidar_points) % FRAME_SIZE
-        
-        lidar_frames = []
-        
-        for i in range(num_frames):
-            frame = lidar_points[i * FRAME_SIZE : (i + 1) * FRAME_SIZE]
-            lidar_frames.append(frame)
-        
-        if remainder > 0:
-            frame = lidar_points[-remainder:]
-            lidar_frames.append(frame)
-        
-        lidar_frames = np.array(lidar_frames, dtype=object)
-        logger.info(f'Split LiDAR data into {len(lidar_frames)} frames')
-        return lidar_frames
+
+        lidar_frames = segment_into_frames(lidar_points, frame_size)
+
+        # A plain np.array(lidar_frames, dtype=object) silently broadcasts into a
+        # regular numeric array (losing the per-frame structure) whenever every
+        # frame happens to have the same length, e.g. exactly one frame. Building
+        # the object array by explicit assignment avoids that.
+        frames_array = np.empty(len(lidar_frames), dtype=object)
+        for i, frame in enumerate(lidar_frames):
+            frames_array[i] = frame
+
+        logger.info(f'Split LiDAR data into {len(frames_array)} frames')
+        return frames_array
     except Exception as e:
         logger.error(f'Error transforming LiDAR points: {e}')
         raise RuntimeError()
@@ -121,7 +127,8 @@ def transform_points(lidar_points: NDArray[np.float64], imu_data: NDArray[np.flo
 
 
 
-def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], imu_data: NDArray[np.float64], gnss_data: NDArray[np.float64]):
+def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], imu_data: NDArray[np.float64],
+                            gnss_data: NDArray[np.float64], lidar_model: str, result_dir: Path):
     start_time = time.time()
     try:
 
@@ -133,7 +140,7 @@ def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], im
         lidar_timestamps_seconds = filtered_lidar_frame_data[:, 0]
         gnss_timestamps_seconds  = gnss_data[:, 0]
 
-        filtered_lidar_frame_data[:, 1:4] = filtered_lidar_frame_data[:, 1:4] + LIDAR_GNSS_OFFSETS[LIDAR_MODEL]
+        filtered_lidar_frame_data[:, 1:4] = filtered_lidar_frame_data[:, 1:4] + LIDAR_GNSS_OFFSETS[lidar_model]
 
 
         interp_x = interp1d(gnss_timestamps_seconds, gnss_data[:, 1], bounds_error=False, fill_value='extrapolate')
@@ -156,7 +163,7 @@ def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], im
             rotated_lidar_data[:, 4]
         ))
 
-        with open(RESULT_DIR / f'point_cloud_{frame_idx}.txt', 'w') as pcf:
+        with open(result_dir / f'point_cloud_{frame_idx}.txt', 'w') as pcf:
             pcf.write(f'{"Timestamp (s)".center(10)}\t{"Frame num.".center(10)}\t{"Easting (X)".center(10)}\t{"Northing (Y)".center(30)}\t'
                     f'{"Altitude (Z)".center(10)}\t{"Intensity".center(15)}\r\n'
             )
@@ -176,40 +183,48 @@ def get_pointcloud_with_imu(frame_idx: int, lidar_frame: NDArray[np.float64], im
 
 
 def main():
+    args        = parse_args()
+    lidar_model = args.lidar_model
+    track_type  = args.track_type
+    data_dir    = Path(args.data_dir) / lidar_model / track_type
+    result_dir  = Path(args.out_dir) / lidar_model / track_type
+    frame_size  = frame_size_for(lidar_model)
+
     try:
         np.set_printoptions(suppress=True)
 
-        RESULT_DIR.mkdir(parents=True, exist_ok=True)
+        result_dir.mkdir(parents=True, exist_ok=True)
 
-        logger.info(f'Created directory: {RESULT_DIR}')
+        logger.info(f'Created directory: {result_dir}')
 
         logger.info('Loading sensor data...')
 
-        imu_data     = np.loadtxt(DATA_DIR / f'imu_{TRACK_TYPE}.txt', skiprows=1)
-        gnss_data    = transform_gnss_data()            
-        
-        lidar_frames = transform_lidar_points(gnss_data)
+        imu_data     = np.loadtxt(data_dir / f'imu_{track_type}.txt', skiprows=1)
+        gnss_data    = transform_gnss_data(data_dir, track_type)
 
-        
+        lidar_frames = transform_lidar_points(gnss_data, data_dir, track_type, frame_size)
+
+
         logger.info(f'IMU time range: {imu_data[0, 0]} to {imu_data[-1, 0]}')
         logger.info(f'LiDAR time range: {lidar_frames[0][0, 0]} to {lidar_frames[-1][-1, 0]}')
         logger.info(f'GNSS time range: {gnss_data[0, 0]} to {gnss_data[-1, 0]}')
-        
+
         processed_frames = []
-        
+
         for frame_idx, frame in enumerate(lidar_frames):
             logger.info(f'Processing frame {frame_idx + 1}/{len(lidar_frames)}')
-            processed_frame = get_pointcloud_with_imu(frame_idx + 1, frame, imu_data, gnss_data)
-            
+            processed_frame = get_pointcloud_with_imu(frame_idx + 1, frame, imu_data, gnss_data, lidar_model, result_dir)
+
             if processed_frame is not None:
                 processed_frames.append(processed_frame)
-        
+
         logger.info(f'Processed {len(processed_frames)}/{len(lidar_frames)} frames successfully')
-        
+
     except Exception as e:
         logger.error(f'Error in main function: {e}')
 
 if __name__ == '__main__':
+    configure_logging()
     start = time.time()
     main()
     elapsed = time.time() - start
