@@ -2,7 +2,7 @@ import time
 import logging
 import argparse
 import numpy as np
-from util import latlon_to_utm
+from util import latlon_array_to_utm
 from pathlib import Path
 from numpy.typing import NDArray
 from scipy.interpolate import interp1d
@@ -38,11 +38,10 @@ def transform_gnss_data() -> NDArray[np.float64]:
     try:
         gnss_data = np.loadtxt(DATA_DIR / f'gnss_{TRACK_TYPE}.txt', skiprows=1, dtype=np.float64)
         
-        result = np.apply_along_axis(lambda row: latlon_to_utm(row[1], row[2]), axis=1, arr=gnss_data)  # (lon, lat) ===> easting northing
-        result = np.array(result)
+        easting, northing = latlon_array_to_utm(gnss_data[:, 1], gnss_data[:, 2])  # (lon, lat) ===> easting northing
 
-        gnss_data[:, 1] = result[:, 0]
-        gnss_data[:, 2] = result[:, 1]
+        gnss_data[:, 1] = easting
+        gnss_data[:, 2] = northing
 
         if not is_strictly_increasing(gnss_data[:, 0]):
             logger.warning('GNSS timestamps are not strictly increasing')
